@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+  font-family: 'Playfair Display', serif; 
+}
+/* 
+font-family: 'Raleway', sans-serif;
+font-family: 'Playfair Display', serif;
+letter-spacing: .4rem; */
+/* 
+.div-icon-redes-projects{
+  margin-top: 1rem;
+}
+.icon-redes-projects{
+  padding-right: 1rem;
+  color: rgb(36, 36, 36);
+}
+
+.icon-redes-projects:hover{
+ 
+  color: rgb(235, 188, 228);
+}
+
+<div className="div-icon-redes-projects">
+                                    <a className="icon-redes-projects" target="_blank" href="https://www.myGITHUB.com/"><i class="fab fa-github fa-2x"></i></a>
+                                    <a className="icon-redes-projects" target="_blank" href="https://www.myPROYECTO.com/"><i class="fas fa-link fa-2x"></i></a>  
+                                </div> */

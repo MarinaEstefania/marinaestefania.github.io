@@ -1,0 +1,31 @@
+
+
+.my-div-pre-title-about{
+    color:rgb(204, 175, 69);
+    font-size: .7rem;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+      letter-spacing: .3rem;
+      font-weight: bold;
+      margin-bottom: .01rem!important;
+  }
+  .my-div-title-about{
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+      letter-spacing: .1rem;
+      font-weight: bold;
+  }
+.my-description-about{
+    padding: 1rem;
+    text-align: center;
+    letter-spacing: .1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.my-img-about{
+    align-content: center;
+}
+.my-skills {
+    list-style: none;
+}

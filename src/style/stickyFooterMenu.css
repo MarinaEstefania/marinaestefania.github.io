@@ -1,0 +1,35 @@
+.navbarF {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000; 
+    padding-inline-start: inherit;
+    padding-inline-end: inherit;
+    width: -webkit-fill-available;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbarF a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+
+  /* Change the color of links on hover */
+  .navbarF a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbarF a.active {
+    background-color: #4CAF50;
+    color: white;
+  }

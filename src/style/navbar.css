@@ -1,0 +1,41 @@
+.navbar {
+    overflow: hidden;
+    background-color: #e5c7bd;/*  #aa9a9d; */
+    position: fixed;
+    top: 0;
+    z-index: 1000; 
+  }
+  
+  .navbar a {
+    position: relative;
+    float: left;
+    display: block;
+    color: #020202;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0px 15px;
+  }
+
+  .navbar a:after{
+    position: absolute;
+    bottom: 7px;
+    left: 0px;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(250, 241, 109);
+    content: "";
+    opacity: 0;
+    transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+    transform: translateY(20px); 
+  }
+  
+  .navbar a:hover:after{
+    opacity: 1;
+    transform: translateY(0px)
+  } 
+
+  .my-navbar-padding{
+padding: 0
+  }

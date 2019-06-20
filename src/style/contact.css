@@ -1,0 +1,59 @@
+
+.my-div-pre-title-contact{
+    color:rgb(204, 175, 69);
+    font-size: .7rem;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+      letter-spacing: .3rem;
+      font-weight: bold;
+      margin-bottom: .01rem!important;
+  }
+
+.my-div-title-contact{
+    color: beige;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+        letter-spacing: .1rem;
+        font-weight: bold;
+    }
+
+   /*  */
+
+    .icon-redes-contact{
+        padding: 2rem;
+        cursor: pointer;
+        color:#8d8d8a;
+      }
+      
+      .icon-redes-contact:hover{
+        color: rgb(235, 188, 228);
+      } 
+   /*   
+      .d{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        outline: none;
+        border: 0;
+        padding: 10px 15px;
+        background:rgb(247, 247, 239);
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: .1rem;
+        font-size: 1rem;
+        margin-bottom: 3px;
+         color: #fff; 
+        
+      }
+
+      .my-submit{
+        font-family: 'Raleway', sans-serif;
+        float: right;
+        margin: .3vw 0 0 0;
+        font-size: 1rem;
+        padding: 10px 30px;
+        color: beige;
+        background: transparent;
+        outline: 0;
+        width: auto;
+      } */
