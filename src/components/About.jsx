@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../style/about.css';
 import aboutImage from '../img/about.jpg'
-
+ 
 class About extends Component {
     render() {
         return (
