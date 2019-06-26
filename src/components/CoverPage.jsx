@@ -16,20 +16,18 @@ class CoverPage extends Component{
                      <p class="my-col-quote"> "The best preparation for tomorrow is doing your best today"</p>
                     <p class="my-col-marina"> MARINA ESTEFANIA</p>
                     <p class="my-col-front"> FRONT-END DEVELOPER</p>          
-                  
-                 {/*    <div className="row col-md-8 my-row my-row-cover-redes">
+                 {/* 
+                     <div className="row col-md-8 my-row my-row-cover-redes">
                       <a className="icon-redes-cover" target="_blank" href="https://www.linkedin.com/in/MarinaEstefania/">
                          <i class="fab fa-linkedin-in "></i></a>  
                       <a className="icon-redes-cover" target="_blank" href="https://github.com/MarinaEstefania">
-                         <i class="fab fa-github  "></i></a>                              
-                    </div> */}
+                         <i class="fab fa-github  "></i></a>       
+                        <a className="icon-redes-cover" target="_blank" href="mailto:m.garciac11@gmail.com">
+                        <i class="fas fa-envelope"></i></a>                        
+                    </div>  */}
                  
                   </div>
                 </div>
-
-
-
-
 
                 <div class="col-sm-12 col-md-6 my-col my-img-cover">
                 </div> 

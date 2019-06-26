@@ -1,17 +1,17 @@
-/* .my-container {
+/*   .my-container {
   border: 5px solid green;
-  overflow: auto
+ 
 }
 .my-row {
   border: 3px solid red;
-  overflow: auto
+
 
 }
 .my-col {
   border: 3px dotted blue;
-  overflow: auto
-}   */
-  
+
+}   */  
+  /*overflow:auto*/
 .my-flex{
   display: flex;
   align-items: center;
@@ -32,7 +32,8 @@
 .main {
   padding: 0px;
  /* margin-top: 40px; */
-  background-color:#f1f3f5;
+  background-color: /* #f1f3f5; */  white; 
+  
 }
 
 .my-row-about{
@@ -41,7 +42,7 @@
   align-items: center;
   justify-content: center;
   padding-top: 5%;
- padding-bottom: 5%; 
+ 
   
 }
 .my-row-project{

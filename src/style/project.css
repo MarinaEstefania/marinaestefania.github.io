@@ -5,14 +5,16 @@ text-align: center;
 font-family: 'Raleway', sans-serif;
     letter-spacing: .3rem;
     font-weight: bold;
-    margin-bottom: .01rem!important;
+    margin-bottom: 0.01rem!important;
 }
 .my-div-title-project{
-text-align: center;
-font-size: 2rem;
-font-family: 'Raleway', sans-serif;
-    letter-spacing: .1rem;
-    font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  margin-bottom: 0.01rem!important;
+  /* border-bottom-style: groove; */
 }
 .my-grid-row {
     display: flex;
@@ -28,7 +30,7 @@ font-family: 'Raleway', sans-serif;
   }
   
   .my-grid-column img {
-    margin-top: 16px;
+    margin-top: 30px;
     vertical-align: middle;
     width: 100%;
   }
@@ -153,7 +155,7 @@ font-family: 'Raleway', sans-serif;
 
 .icon-redes-projects:hover{
    
-    color: rgb(235, 188, 228);
+    color: #ff8c9b
 }
 
  
@@ -162,5 +164,14 @@ font-family: 'Raleway', sans-serif;
   .hovereffect h2 {
    font-size: .9rem;
 }
+}
+
+.my-footer-project{
+  font-family: 'Raleway', sans-serif;
+/*   font-family: 'Playfair Display', serif; */
+letter-spacing: .2rem; 
+font-weight: bold;
+text-align: center;
+font-size: 1.3rem;
 }
 
