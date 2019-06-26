@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.59d0bf4b.chunk.css",
-    "main.js": "/static/js/main.5e642fa3.chunk.js",
-    "main.js.map": "/static/js/main.5e642fa3.chunk.js.map",
+    "main.css": "/static/css/main.010e8deb.chunk.css",
+    "main.js": "/static/js/main.c7031d97.chunk.js",
+    "main.js.map": "/static/js/main.c7031d97.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.dc3c908d.chunk.js": "/static/js/2.dc3c908d.chunk.js",
     "static/js/2.dc3c908d.chunk.js.map": "/static/js/2.dc3c908d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.add92b026ddbfa6a2c75a89fdd1f6359.js": "/precache-manifest.add92b026ddbfa6a2c75a89fdd1f6359.js",
+    "precache-manifest.de11e58b66133cd45f8bcfcfac9bbba1.js": "/precache-manifest.de11e58b66133cd45f8bcfcfac9bbba1.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.59d0bf4b.chunk.css.map": "/static/css/main.59d0bf4b.chunk.css.map",
-    "static/media/fagreen.jpeg": "/static/media/fagreen.17cf7c95.jpeg",
+    "static/css/main.010e8deb.chunk.css.map": "/static/css/main.010e8deb.chunk.css.map",
+    "static/media/about.css": "/static/media/bromello-Regular.061a919b.ttf",
+    "static/media/fagreen.jpeg": "/static/media/fagreen.5952d73a.jpeg",
     "static/media/liver.jpeg": "/static/media/liver.bb7bc725.jpeg",
-    "static/media/mundodulce.jpeg": "/static/media/mundodulce.0ff55f07.jpeg",
+    "static/media/mundodulce.jpeg": "/static/media/mundodulce.dc2b3af2.jpeg",
     "static/media/pokegoal.jpeg": "/static/media/pokegoal.18302d3f.jpeg",
-    "static/media/coverPage.css": "/static/media/screen (5).ee1115bf.jpg"
+    "static/media/coverPage.css": "/static/media/screen (5).e63353ce.jpg"
   }
 }
