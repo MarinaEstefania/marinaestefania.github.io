@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../style/about.css';
 import aboutImage from '../img/fagreen.jpeg'
+import softImage from '../img/team.png'
 
 class About extends Component {
     render() {
@@ -14,8 +15,8 @@ class About extends Component {
                         <img className="my-img-about" src={aboutImage}/> 
                     </div>
                     <div class="col-sm-12 col-md-6 my-col my-hello-box">
-                        <p className="my-hey-title"> Hey!</p>
-                        <p  className="helloP"> I'm so glad you are here! </p>
+                        {/* <p className="my-hey-title"> Hey!</p> */}
+                        <p  className="helloP"> Hey! I'm so glad you are here! </p>
                         <p>My name is <span style={{fontWeight: "bold"}} >Marina Estefanía </span>.</p>
                         <p>I have a bachelor degree in Biochemical Engineer, but I've always been interested in the IT area so now I decided become a <span style={{fontWeight: "bold"}} >Front End Developer. </span></p>
                         <p>I like to work on interesting projects with good people and <span style={{fontWeight: "bold"}} >make things work <span style={{color: "#ff8c9b"}}>❤</span>. </span> </p>
@@ -25,8 +26,8 @@ class About extends Component {
                     
                 </div>
                 <div class="row my-row my-flex my-tools">
-                    <div class=" my-col  ">
-                        <div class="row my-row my-flex my-skills-title"> My Dev Tools & Skills</div>
+                    <div class=" col my-col  ">
+                        <div class="row my-row my-flex my-skills-title"> Software Dev Tools</div>
                         <div class="row my-row my-flex">
                              <table className="my-table">
                                 <tr>
@@ -45,20 +46,12 @@ class About extends Component {
                                     <td className="my-icon-tool"><i class="devicon-css3-plain colored"></i></td>
                                     <td>CSS 3</td>
                                 </tr>
-                          {/*       <tr>
-                                    <td className="my-icon-tool"><i class="devicon-bootstrap-plain colored"></i></td>
-                                    <td>Bootstrap</td>
-                                </tr>
-                                <tr>
-                                    <td className="my-icon-tool"><i class="devicon-git-plain colored"></i></td>
-                                    <td>GIT</td>
-                                </tr>
-                                <tr>
-                                    <td className="my-icon-tool"><i class="devicon-mongodb-plain colored"></i></td>
-                                    <td>Mongo DB</td>
-                                </tr> */}
                             </table>
                             <table className="my-table">
+                            <tr>
+                                    <td className="my-icon-tool"><i class="devicon-nodejs-plain-wordmark colored"></i></td>
+                                    <td>Node JS</td>
+                                </tr>
                             <tr>
                                     <td className="my-icon-tool"><i class="devicon-bootstrap-plain colored"></i></td>
                                     <td>Bootstrap</td>
@@ -72,7 +65,18 @@ class About extends Component {
                                     <td>Mongo DB</td>
                                 </tr>
                             </table>
-                            <table className="my-table">
+                           
+                        </div>
+                    </div>
+                    <div class=" col my-col  ">
+                        <div class="row my-row my-flex my-skills-title"> Soft Skills</div>
+                        <div class="row my-row my-flex">
+                        <table className="my-table">
+                                <tr>
+                                    <td className="my-icon-tool"><img className="my-img-soft" src={softImage}/> </td>
+                                </tr>
+                        </table>
+                        <table className="my-table">
                                 <tr>
                                     <td>Self-Learning</td>
                                 </tr>
@@ -80,7 +84,7 @@ class About extends Component {
                                     <td>Responsability</td>
                                 </tr>
                                 <tr>
-                                    <td>Solv Problems</td>
+                                    <td>Problem Solving</td>
                                 </tr>
                                 <tr>
                                     <td>Team Work</td>
@@ -91,7 +95,10 @@ class About extends Component {
                                 <tr>
                                     <td>Researching</td>
                                 </tr>   
-                            </table>
+                                <tr>
+                                    <td>Empathy</td>
+                                </tr> 
+                            </table>                            
                         </div>
                     </div>
                 </div>
