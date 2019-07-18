@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import '../style/project.css';
-import imagetry from '../img/liver.jpeg'
+import imagetry from '../img/mdl.png'
 import mundodulce from '../img/mundodulce.jpeg'
 import pokegoal from '../img/pokegoal.jpeg'
+import bq from '../img/bq.JPG'
+import organa from '../img/organa.JPG'
+import OrganaModal from './Modals/OrganaModal'
 
 class Project extends Component {
     render() {
         return (
+          
             <section className="my-project-row">
                 
                 <div className="my-div-pre-title-project ">
@@ -18,47 +22,41 @@ class Project extends Component {
                 <div class="my-grid-row"> 
 
                     <div class="my-grid-column">
-                        <div className="my-footer-project">
-                            <div class="hovereffect">
-                                <img  src={pokegoal}/>
-                                <div class="overlay">
-                            
-                                    <h2>POKEGOAL
-                                        <div className="div-icon-redes-projects">
-                                           {/*  <a className="icon-redes-projects" target="_blank" href="https://infoooo.com/"><i class="fas fa-info-circle fa-2x"></i></a>  */} 
-                                           <a className="icon-redes-projects" target="_blank" href="https://infoooo.com/">view more</a> 
-                                        {/*     <a className="icon-redes-projects" target="_blank" href="https://red-social-595e4.firebaseapp.com/"><i class="fas fa-link fa-2x"></i></a>  
-                                            <a className="icon-redes-projects" target="_blank" href="https://github.com/MarinaEstefania/GDL002-social-network"><i class="fab fa-github fa-2x"></i></a>
-                                        */} </div>
-                                    </h2>
-                                </div>
-                            </div>
-                        POKEGOAL
+                        <div className="div-img-project">
+                            <img  className="img-project" src={pokegoal}/>
+                           ORGANA
+                            <OrganaModal></OrganaModal>
                         </div>
 
-                        <div class="my-div-grid"><img src={mundodulce}/></div>
-                        
+                     {/*    <div className="div-img-project">
+                            <img src={mundodulce}/>
+                            PokeGoal  <Examples></Examples>
+                        </div> */}
                     </div>
 
                     <div class="my-grid-column">
-                        <img src={mundodulce}/>
-                        <img src={imagetry}/>
-                      
-                        
+                        <div className="div-img-project">
+                            <img className="img-project" src={pokegoal}/>
+                            BURGER QUEEN
+                            <OrganaModal></OrganaModal>
+                        </div>
                     </div> 
 
-                   <div class="my-grid-column">
-                        <img src={pokegoal}/>
-                        
-                        <img src={imagetry}/>
+                    <div class="my-grid-column">
+                        <div className="div-img-project">
+                            <img className="img-project" src={pokegoal}/>
+                            POKEGOAL  
+                            <OrganaModal></OrganaModal>
+                        </div>
                     </div> 
 
-               {/*      <div class="my-grid-column">
-                        <img src={imagetry3}/>
-                        <img src={imagetry}/>
-                        <img src={imagetry3}/>
-                    </div> 
- */}
+                   {/*  <div class="my-grid-column">
+                        <div className="div-img-project">
+                            <img className="img-project" src={imagetry}/>
+                            MdLinks 
+                            <OrganaModal></OrganaModal>
+                        </div>
+                    </div>  */}
                 </div>
             </section>
 

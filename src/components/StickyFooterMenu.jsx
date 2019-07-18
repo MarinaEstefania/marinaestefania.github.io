@@ -8,10 +8,10 @@ class StickyFooterMenu extends Component{
         return(
             <div class="navbarF">
                  <div className="justify-content-center my-flex" >
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#projects">Work</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#home"><i class="fas fa-home fa-2x my-flex"></i>Home</a>
+                    <a href="#projects"><i class="fas fa-briefcase fa-2x my-flex"></i>Projects</a>
+                    <a href="#about"><i class="fas fa-user fa-2x my-flex"></i>About</a>
+                    <a href="#contact"><i class="fas fa-address-book fa-2x my-flex"></i>Contact</a>
                 </div>
             </div>
         )

@@ -14,12 +14,13 @@
     text-align: center;
     font-size: 2rem;
     font-family: 'Raleway', sans-serif;
-        letter-spacing: .1rem;
+        letter-spacing: .3rem;
         font-weight: bold;
     }
 
-   /*  */
-
+    .my-description-contact{
+      letter-spacing: .1rem;  
+    }
     .icon-redes-contact{
         padding: 2rem;
         cursor: pointer;

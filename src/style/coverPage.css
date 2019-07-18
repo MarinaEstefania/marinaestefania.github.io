@@ -1,80 +1,79 @@
-
-.my-cover-row{
-  height: 80vh;
-  width: 100vw;
-  background-color: white;
-  
+.my-cover-row {
+    height: 80vh;
+    width: 100vw;
+    background-color: white;
 }
 
-.my-img-cover{
-  background-image: url("../img/screen (5).jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+.my-img-cover {
+    background-image: url("../img/screen (5).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.my-row-cover-letters{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  
+.my-row-cover-letters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
-.my-col-quote{
-  font-family: 'Playfair Display', serif; 
-  color: #3b3a3b;
-  
-  font-size: 2.5em;
-  text-align: center;
-  max-height: fit-content;
-  margin-bottom: 3vw;
+.my-col-quote {
+    font-family: 'Playfair Display', serif;
+    color: #3b3a3b;
+    font-size: 2rem;
+    text-align: center;
+    max-height: fit-content;
+    margin-bottom: 3vw;
+    padding: 0 4rem 0 4rem;
 }
 
-.my-col-marina{
-  width: inherit;
-  margin-bottom: auto;
-  font-family: 'Raleway', sans-serif;
-  color: #8d8d8a;
-  font-size: 1.3rem;
-  text-align: center;
-  max-height: fit-content;
-  letter-spacing: .5rem;
+.my-col-marina {
+    width: inherit;
+    margin-bottom: auto;
+    font-family: 'Raleway', sans-serif;
+    color:  #ff8c9b; /* #8d8d8a; */
+    font-size: 2rem;/* 1.3rem; */
+    text-align: center;
+    max-height: fit-content;
+    letter-spacing: .5rem;
 }
-.my-col-front{
-  font-family: 'Raleway', sans-serif;
-  color: #8d8d8a;
-  font-size: .8rem;
-  text-align: center;
-  max-height: fit-content;
-  letter-spacing: .4rem;
+
+.my-col-front {
+    font-family: 'Raleway', sans-serif;
+    color: #8d8d8a;
+    font-size: 1rem; /* .8rem; */
+    text-align: center;
+    max-height: fit-content;
+    letter-spacing: .4rem;
 }
 
 .my-row-letters {
-  flex-wrap: wrap;
-}
-.my-row-cover-redes{
-  position: relative;
-  
- 
-  display: flex;
-
-margin: 0px;
-padding: 0px;
+    flex-wrap: wrap;
 }
 
-
- .icon-redes-cover{
-   display: inline-block;
-   text-align: center;
-   padding-right: 1rem;
-   cursor: pointer;
-  color:#a1a19b;
- 
+.my-row-cover-redes {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: flex-end;
 }
 
-.icon-redes-cover:hover{
-  color: #ff8c9b
-} 
+.icon-redes-cover {
+    display: inline-block;
+    text-align: center;
+    padding-right: 1rem;
+    cursor: pointer;
+    color: #a1a19b;
+}
+
+.icon-redes-cover:hover {
+    color: #ff8c9b
+}
+
+
 /* 
 font-family: 'Raleway', sans-serif;
 font-family: 'Playfair Display', serif; */
