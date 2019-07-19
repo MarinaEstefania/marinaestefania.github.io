@@ -25,7 +25,7 @@
   text-align: center;
   max-height: fit-content;
   margin-bottom: 3vw;
-  padding: 0;
+  padding: 0 4rem 0 4rem;
 }
 
 .my-col-marina {
@@ -90,11 +90,14 @@ font-family: 'Playfair Display', serif; */
   .my-cover-row {
     margin-top: 0;
   }
+  .my-col-quote {
+    padding:0;
+  }
   
 }
 
-/* @media screen and (min-width:576px) {
+@media screen and (max-width:1440px) {
   .my-col-quote {
-    padding: 0 4rem 0 4rem;
+    padding:0;
   }
-} */
+}
