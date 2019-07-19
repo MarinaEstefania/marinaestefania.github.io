@@ -2,6 +2,7 @@
   height: 80vh;
   width: 100vw;
   background-color: white;
+  margin-top: 2.4rem;
 }
 
 .my-img-cover {
@@ -24,7 +25,7 @@
   text-align: center;
   max-height: fit-content;
   margin-bottom: 3vw;
-  padding: 0 4rem 0 4rem;
+  padding: 0;
 }
 
 .my-col-marina {
@@ -76,3 +77,24 @@
 /* 
 font-family: 'Raleway', sans-serif;
 font-family: 'Playfair Display', serif; */
+
+/* @media screen and (max-width: 812px) {
+  .my-col-quote {
+    font-size: 1.2rem;
+    padding: 0 ;
+}
+}
+ */
+
+@media screen and (max-width:576px) {
+  .my-cover-row {
+    margin-top: 0;
+  }
+  
+}
+
+/* @media screen and (min-width:576px) {
+  .my-col-quote {
+    padding: 0 4rem 0 4rem;
+  }
+} */

@@ -6,8 +6,8 @@ class CoverPage extends Component {
     return (
       <div>
         <div className="row my-cover-row my-row">
-          <div className="col-sm-12 col-md-6 my-col my-flex my-row-letters ">
-            <div className="row col-md-8 my-row my-row-cover-letters">
+          <div className="col-sm-12 col-lg-6 my-col my-flex my-row-letters ">
+            <div className="row col-lg-8 my-row my-row-cover-letters">
               <p className="my-col-quote">
                 "The best preparation for tomorrow is doing your best today"
               </p>
@@ -15,7 +15,7 @@ class CoverPage extends Component {
               <p className="my-col-front"> FRONT-END DEVELOPER</p>
             </div>
 
-            <div className="row col-md-8 my-row my-row-cover-redes">
+            <div className="row col-lg-8 my-row my-row-cover-redes">
               <a
                 className="icon-redes-cover"
                 target="_blank"
@@ -40,7 +40,7 @@ class CoverPage extends Component {
             </div>
           </div>
 
-          <div className="col-sm-12 col-md-6 my-col my-img-cover" />
+          <div className="col-sm-12 col-lg-6 my-col my-img-cover" />
         </div>
       </div>
     );
