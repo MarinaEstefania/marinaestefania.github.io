@@ -1,85 +1,77 @@
-
 .modal-button {
-    border-style: solid;
-    background-color: transparent;
-    border-color: #ff8c9b; /* #e5c7bd; */
-    color: gray;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    cursor: pointer;
-    margin-top: .4rem;
+  border-style: solid;
+  background-color: transparent;
+  border-color: #ff8c9b; /* #e5c7bd; */
+  color: gray;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  cursor: pointer;
+  margin-top: 0.4rem;
 }
 
-
 .modal-button:hover {
-    border-color: #ff8c9b; /* #e5c7bd; */
-    color: gray;
-    text-decoration: none;
+  border-color: #ff8c9b; /* #e5c7bd; */
+  color: gray;
+  text-decoration: none;
 }
 
 div.div-img-project section div div div {
-    width: 60%;
-    padding: 1rem;
-    display: flex;
-   /*  justify-content: space-around; */
-
+  width: 60%;
+  padding: 1rem;
+  display: flex;
+  /*  justify-content: space-around; */
 }
 
-.modal-content{
-    min-width: -webkit-fill-available;
-    justify-content: space-evenly;
+.modal-content {
+  min-width: -webkit-fill-available;
+  justify-content: space-evenly;
 }
 
-.title-box{
-    font-weight: bold;
-    border: 0;
+.title-box {
+  font-weight: bold;
+  border: 0;
 }
-.info-box{
-    align-items: baseline;
-    text-align: left;
-}
-
-.icon-a-modal{
-    max-width: min-content;
-}
-.cerrar-modal{
-    display: inline-block;
-    text-align: end;
-    position: absolute;
-    top: 0;
-    right: 0;
-    justify-content: baseline;
-    max-width: min-content;
-
+.info-box {
+  align-items: baseline;
+  text-align: left;
 }
 
-.cerrar-modal-btn{
-    padding: .4rem .4rem .4rem .8rem;
-    margin: 0;
-    font-weight: bold;
+.icon-a-modal {
+  max-width: min-content;
+}
+.cerrar-modal {
+  display: inline-block;
+  text-align: end;
+  position: absolute;
+  top: 0;
+  right: 0;
+  justify-content: baseline;
+  max-width: min-content;
+}
 
+.cerrar-modal-btn {
+  padding: 0.4rem 0.4rem 0.4rem 0.8rem;
+  margin: 0;
+  font-weight: bold;
 }
 @media (max-width: 800px) {
-    
-    div.div-img-project section div div div {
-        width: 75%; 
-    }
+  div.div-img-project section div div div {
+    width: 75%;
+  }
 }
 @media (max-width: 600px) {
-    
-    div.div-img-project section div div div {
-        width: 80%; 
-    }
+  div.div-img-project section div div div {
+    width: 80%;
+  }
 }
 
 @media (max-width: 400px) {
-    
-    div.div-img-project section div div div {
-        width: 100%; 
-    }
-    }
+  div.div-img-project section div div div {
+    width: 100%;
+  }
+}
 
-    div.div-img-project section div div div div.modal-content{
-    width: auto;
-    border:0;
-    }
+div.div-img-project section div div div div.modal-content {
+  width: auto;
+  border: 0;
+}

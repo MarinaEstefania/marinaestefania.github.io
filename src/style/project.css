@@ -1,77 +1,73 @@
 .my-div-pre-title-project {
-    color: rgb(204, 175, 69);
-    font-size: .7rem;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: .3rem;
-    font-weight: bold;
-    margin-bottom: 0.01rem!important;
+  color: rgb(204, 175, 69);
+  font-size: 0.7rem;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+  margin-bottom: 0.01rem !important;
 }
 
 .my-div-title-project {
-    text-align: center;
-    font-size: 2rem;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: .1rem;
-    font-weight: bold;
-    margin-bottom: 0.01rem!important;
-    /* border-bottom-style: groove; */
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  margin-bottom: 0.01rem !important;
+  /* border-bottom-style: groove; */
 }
 
 .my-grid-row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center; 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
-
 
 /* Create four equal columns that sits next to each other */
 
 .my-grid-column {
-    flex: 33%;
-    max-width: 33%;
+  flex: 33%;
+  max-width: 33%;
 }
 
-.img-project{
-    vertical-align: middle;
-    width: 100%;
-    margin-bottom: .4rem;
+.img-project {
+  vertical-align: middle;
+  width: 100%;
+  margin-bottom: 0.4rem;
 }
 
 .div-img-project {
-    background-color: white;
-    border-radius: 5px;
-    padding: 2vh;
-    margin: 2vh 1vw 2vh 1vw;
-    text-align: center;
-    letter-spacing: .4rem;
-    font-weight: bold;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2vh;
+  margin: 2vh 1vw 2vh 1vw;
+  text-align: center;
+  letter-spacing: 0.4rem;
+  font-weight: bold;
 }
-
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 1200px) {
-    .my-grid-column {
-        flex: 50%;
-        max-width: 40%;
-    }
+  .my-grid-column {
+    flex: 50%;
+    max-width: 40%;
+  }
 }
-
 
 @media screen and (max-width: 800px) {
-    .my-grid-column {
-        flex: 50%;
-        max-width: 50%;
-    }
+  .my-grid-column {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
-
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width: 600px) {
-    .my-grid-column {
-        flex: 100%;
-        max-width: 100%;
-    }
+  .my-grid-column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }

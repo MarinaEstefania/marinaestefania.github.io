@@ -48,7 +48,7 @@ export default class OrganaModal extends Component {
               take customer orders (add and remove items, get the total account,
               add the date and the waitress name), also, on the kitchen side you
               can see and delete the orders.
-              <div class="row my-row my-flex">
+              <div className="row my-row my-flex">
                 <table className="my-table">
                   <tr>
                     <td className="">Technologies:</td>
@@ -63,14 +63,14 @@ export default class OrganaModal extends Component {
                 target="_blank"
                 href="https://red-social-595e4.firebaseapp.com/"
               >
-                <i class="fas fa-link fa-2x" />
+                <i className="fas fa-link fa-2x" />
               </a>
               <a
                 className="icon-a-modal"
                 target="_blank"
                 href="https://github.com/MarinaEstefania/GDL002-social-network"
               >
-                <i class="fab fa-github fa-2x" />
+                <i className="fab fa-github fa-2x" />
               </a>
             </div>
             <div className="cerrar-modal">

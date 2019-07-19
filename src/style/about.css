@@ -1,115 +1,113 @@
 .my-div-pre-title-about {
-    color: rgb(204, 175, 69);
-    font-size: .7rem;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: .3rem;
-    font-weight: bold;
-    margin-bottom: .01rem!important;
+  color: rgb(204, 175, 69);
+  font-size: 0.7rem;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+  margin-bottom: 0.01rem !important;
 }
 
 .my-div-title-about {
-    text-align: center;
-    font-size: 2rem;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: .1rem;
-    font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
 }
 
 .my-description-about {
-    padding: 1.5rem;
-    text-align: center;
-    letter-spacing: .1rem;
-    font-family: 'Raleway', sans-serif;
-    text-align: left;
-    align-items: center;
-    /* border-top-style: groove; */
+  padding: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  align-items: center;
+  /* border-top-style: groove; */
 }
 
 .my-img-about {
-    text-align: center;
-    max-width: 100%;
-    border-radius: 4px;
+  text-align: center;
+  max-width: 100%;
+  border-radius: 4px;
 }
 
 .my-flex-wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .icon-and-name-skills {
-    display: grid;
-    margin: 1rem;
-    text-align: center;
-    color: /*  #d8aa9a; */
-    rgb(37, 37, 37);
+  display: grid;
+  margin: 1rem;
+  text-align: center;
+  color: /*  #d8aa9a; */ rgb(37, 37, 37);
 }
 
 @font-face {
-    font-family: bromello;
-    src: url(../font/bromello-Regular.ttf);
+  font-family: bromello;
+  src: url(../font/bromello-Regular.ttf);
 }
 
 .my-hey-title {
-    font-family: bromello;
-    font-weight: bold;
-    font-size: 3.5rem;
-    margin: 0;
+  font-family: bromello;
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin: 0;
 }
 
 .helloP {
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    font-size: 2rem;
-    margin-top: 1rem;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 1rem;
 }
 
 .my-skills-title {
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .my-tools {
-    display: block;
-    margin: auto;
-    align-items: baseline;
-    background-color: white;
-    /* #f1f3f5; */
-    /*  border-color: #f7d662; */
-    /* border-style: groove; */
-    padding: 1.5rem;
-    text-align: center;
-    letter-spacing: .1rem;
-    font-family: 'Raleway', sans-serif;
-    text-align: left;
+  display: block;
+  margin: auto;
+  align-items: baseline;
+  background-color: white;
+  /* #f1f3f5; */
+  /*  border-color: #f7d662; */
+  /* border-style: groove; */
+  padding: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
 }
 
 .my-skills {
-    list-style: none;
+  list-style: none;
 }
 
 .my-table {
-    margin: 1rem;
-    margin-bottom: 0;
+  margin: 1rem;
+  margin-bottom: 0;
 }
 
 .my-icon-tool {
-    font-size: 3rem;
-    color: #9db7a6;
+  font-size: 3rem;
+  color: #9db7a6;
 }
 
-.firebase-div{
-    text-align: center;
+.firebase-div {
+  text-align: center;
 }
-.firebase-icon{
-    display: block;
-    max-width: 2.5rem;
-    margin: auto;
+.firebase-icon {
+  display: block;
+  max-width: 2.5rem;
+  margin: auto;
 }
 .my-img-soft {
-    width: 6rem;
+  width: 6rem;
 }
-
 
 /* .my-hello-box{
     position: relative;

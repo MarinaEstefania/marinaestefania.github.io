@@ -1,78 +1,77 @@
 .my-cover-row {
-    height: 80vh;
-    width: 100vw;
-    background-color: white;
+  height: 80vh;
+  width: 100vw;
+  background-color: white;
 }
 
 .my-img-cover {
-    background-image: url("../img/screen (5).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../img/screen (5).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .my-row-cover-letters {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .my-col-quote {
-    font-family: 'Playfair Display', serif;
-    color: #3b3a3b;
-    font-size: 2rem;
-    text-align: center;
-    max-height: fit-content;
-    margin-bottom: 3vw;
-    padding: 0 4rem 0 4rem;
+  font-family: "Playfair Display", serif;
+  color: #3b3a3b;
+  font-size: 2rem;
+  text-align: center;
+  max-height: fit-content;
+  margin-bottom: 3vw;
+  padding: 0 4rem 0 4rem;
 }
 
 .my-col-marina {
-    width: inherit;
-    margin-bottom: auto;
-    font-family: 'Raleway', sans-serif;
-    color:  #ff8c9b; /* #8d8d8a; */
-    font-size: 2rem;/* 1.3rem; */
-    text-align: center;
-    max-height: fit-content;
-    letter-spacing: .5rem;
+  width: inherit;
+  margin-bottom: auto;
+  font-family: "Raleway", sans-serif;
+  color: #ff8c9b; /* #8d8d8a; */
+  font-size: 2rem; /* 1.3rem; */
+  text-align: center;
+  max-height: fit-content;
+  letter-spacing: 0.5rem;
 }
 
 .my-col-front {
-    font-family: 'Raleway', sans-serif;
-    color: #8d8d8a;
-    font-size: 1rem; /* .8rem; */
-    text-align: center;
-    max-height: fit-content;
-    letter-spacing: .4rem;
+  font-family: "Raleway", sans-serif;
+  color: #8d8d8a;
+  font-size: 1rem; /* .8rem; */
+  text-align: center;
+  max-height: fit-content;
+  letter-spacing: 0.4rem;
 }
 
 .my-row-letters {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .my-row-cover-redes {
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    justify-content: flex-end;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: flex-end;
 }
 
 .icon-redes-cover {
-    display: inline-block;
-    text-align: center;
-    padding-right: 1rem;
-    cursor: pointer;
-    color: #a1a19b;
+  display: inline-block;
+  text-align: center;
+  padding-right: 1rem;
+  cursor: pointer;
+  color: #a1a19b;
 }
 
 .icon-redes-cover:hover {
-    color: #ff8c9b
+  color: #ff8c9b;
 }
-
 
 /* 
 font-family: 'Raleway', sans-serif;

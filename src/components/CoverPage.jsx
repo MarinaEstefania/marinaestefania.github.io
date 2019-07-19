@@ -6,13 +6,13 @@ class CoverPage extends Component {
     return (
       <div>
         <div className="row my-cover-row my-row">
-          <div class="col-sm-12 col-md-6 my-col my-flex my-row-letters ">
+          <div className="col-sm-12 col-md-6 my-col my-flex my-row-letters ">
             <div className="row col-md-8 my-row my-row-cover-letters">
-              <p class="my-col-quote">
+              <p className="my-col-quote">
                 "The best preparation for tomorrow is doing your best today"
               </p>
-              <p class="my-col-marina"> MARINA ESTEFANIA</p>
-              <p class="my-col-front"> FRONT-END DEVELOPER</p>
+              <p className="my-col-marina"> MARINA ESTEFANIA</p>
+              <p className="my-col-front"> FRONT-END DEVELOPER</p>
             </div>
 
             <div className="row col-md-8 my-row my-row-cover-redes">
@@ -40,7 +40,7 @@ class CoverPage extends Component {
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-6 my-col my-img-cover" />
+          <div className="col-sm-12 col-md-6 my-col my-img-cover" />
         </div>
       </div>
     );
