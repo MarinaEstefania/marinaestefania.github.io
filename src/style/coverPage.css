@@ -52,6 +52,9 @@
   flex-wrap: wrap;
 }
 
+.td-description-modal{
+  padding-left: 1rem;
+}
 .my-row-cover-redes {
   position: absolute;
   bottom: 1rem;

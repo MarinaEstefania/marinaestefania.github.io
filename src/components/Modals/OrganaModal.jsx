@@ -42,45 +42,74 @@ export default class OrganaModal extends Component {
             {/* <div className="modal-content img-box">
               <img className="img-modal" src={organa}/>
             </div>    */}
-            <h1 className="modal-content title-box"> ORGANA</h1>
-            <div className="modal-content info-box">
-              It's a Restaurant's Single Page Application. It allows waitress to
-              take customer orders (add and remove items, get the total account,
-              add the date and the waitress name), also, on the kitchen side you
-              can see and delete the orders.
-              <div className="row my-row my-flex">
-                <table className="my-table">
-                  <tr>
-                    <td className="">Technologies:</td>
-                    <td> asdads.</td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-            <div className="modal-content redes-box">
-              <a
-                className="icon-a-modal"
-                target="_blank"
-                href="https://red-social-595e4.firebaseapp.com/"
-              >
-                <i className="fas fa-link fa-2x" />
-              </a>
-              <a
-                className="icon-a-modal"
-                target="_blank"
-                href="https://github.com/MarinaEstefania/GDL002-social-network"
-              >
-                <i className="fab fa-github fa-2x" />
-              </a>
-            </div>
-            <div className="cerrar-modal">
+
+            <h1 className="title-box">
+              {" "}
+              Burger Queen{" "}
+              <span className="x-div">
               <a
                 href="javascript:void(0);"
                 onClick={() => this.closeModal()}
                 className="modal-button cerrar-modal-btn"
               >
                 X
-              </a>
+              </a></span>
+            </h1>
+            <div className="modal-content info-box">
+              <p>It's a Restaurant's Single Page Application. It allows waitress to
+              take customer orders (add and remove items, get the total account,
+              add the date and the waitress name), also, on the kitchen side you
+              can see and delete the orders.
+              </p>
+              <div className="row my-row my-flex table-and-icons-in-modal">
+                <table>
+                  <tr>
+                    <td className="">Stack:</td>
+                    <td className="td-description-modal">
+                      {" "}
+                      HTML5, CSS3, Javascript, React, Firebase, Bootstrap,
+                      Libraries.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="">Role:</td>
+                    <td className="td-description-modal"> Fullstack</td>
+                  </tr>
+                  <tr>
+                    <td className="">Platforms:</td>
+                    <td className="td-description-modal"> Tablet</td>
+                  </tr>
+                </table>
+                <div className="modal-content redes-box">
+                  <table className="">
+                    <tr>
+                      <td className="">
+                        <a
+                          className="icon-a-modal "
+                          target="_blank"
+                          href="https://marinaestefania.github.io/gdl002-burger-queen/#/tomar-orden"
+                        >
+                          <i className="fas fa-link fa-2x" />
+                        </a>
+                      </td>
+                      <td>
+                        {" "}
+                        <a
+                          className="icon-a-modal "
+                          target="_blank"
+                          href="https://github.com/MarinaEstefania/gdl002-burger-queen"
+                        >
+                          <i className="fab fa-github fa-2x" />
+                        </a>{" "}
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="">Website</td>
+                      <td>Repository</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
             </div>
           </div>
         </Modal>
