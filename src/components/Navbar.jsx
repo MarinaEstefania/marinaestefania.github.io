@@ -7,12 +7,12 @@ class Navbar extends Component {
     return (
       <div className="navbar  d-none col-md-12 col-sm-12 d-sm-block my-navbar-padding">
         <div className="justify-content-center my-flex">
-          <a className="active" href="#home">
+          <a href="#home">
             HOME
           </a>
-          <a href="#projects">PROJECTS</a>
-          <a href="#about">ABOUT</a>
-          <a href="#contact">CONTACT</a>
+          <a className="decoration-bar-navbar" href="#projects">PROJECTS</a>
+          <a className="decoration-bar-navbar" href="#about">ABOUT</a>
+          <a className="decoration-bar-navbar" href="#contact">CONTACT</a>
         </div>
       </div>
     );
