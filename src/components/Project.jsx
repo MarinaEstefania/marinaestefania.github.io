@@ -1,13 +1,32 @@
 import React, { Component } from "react";
 import "../style/project.css";
-import pokegoal from "../img/pokegoal.jpeg";
-import bq from "../img/bqmu.jpg";
-import organa from "../img/organamu.jpg";
-import mdlinks from "../img/mdlinksmu.jpg";
-import BQModal from "./Modals/BQModal";
+import infoProjects from "../data/info-projects";
+import ModalProject from "./ModalProject";
 
 class Project extends Component {
+  constructor() {
+    super();
+    this.state = {
+      infoProjects,
+      projectCard: [],
+      prueba: "prueba"
+    };
+  }
+
   render() {
+    const projectCards = this.state.infoProjects.projects.map(i => {
+      return (
+        
+          <div className="my-grid-column">
+            <div className="div-img-project">
+              <img className="img-project" src={i.img} />
+              {i.name}
+              <ModalProject info = {i} />
+            </div>
+          </div>
+        
+      );
+    });
     return (
       <section className="my-project-row">
         <div className="my-div-pre-title-project ">
@@ -17,42 +36,7 @@ class Project extends Component {
           <p>MY WORK</p>
         </div>
         <div className="my-grid-row">
-          <div className="my-grid-column">
-            <div className="div-img-project">
-              <img className="img-project" src={organa} />
-              ORGANA
-              <BQModal />
-            </div>
-
-            {/*    <div className="div-img-project">
-                            <img src={mundodulce}/>
-                            PokeGoal  <Examples></Examples>
-                        </div> */}
-          </div>
-
-          <div className="my-grid-column">
-            <div className="div-img-project">
-              <img className="img-project" src={bq} />
-              BURGER QUEEN
-              <BQModal />
-            </div>
-          </div>
-
-          <div className="my-grid-column">
-            <div className="div-img-project">
-              <img className="img-project" src={pokegoal} />
-              POKEGOAL
-              <BQModal />
-            </div>
-          </div>
-
-          <div className="my-grid-column">
-            <div className="div-img-project">
-              <img className="img-project" src={mdlinks} />
-              .mdLINKS
-              <BQModal />
-            </div>
-          </div>
+          {projectCards}
         </div>
       </section>
     );
