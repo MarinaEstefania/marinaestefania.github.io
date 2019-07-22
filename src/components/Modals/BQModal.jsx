@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Modal from "react-awesome-modal";
 import "../../style/modal.css";
-import organa from "../../img/ogn.JPG";
+import bq from "../../img/bqmu.jpg";
 
 export default class BQModal extends Component {
   constructor(props) {

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "../style/about.css";
 import aboutImage from "../img/fagreen.jpeg";
-import softImage from "../img/team.png";
 import firebase from "../img/firebase-logo.svg";
 
 class About extends Component {

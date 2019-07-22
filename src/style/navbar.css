@@ -47,7 +47,7 @@
 }
 
 .decoration-bar-navbar::before{
-  color:#ceb7af;
+  color:#d3b8af;
   content: '|';
   display: block;
   height: 18px;

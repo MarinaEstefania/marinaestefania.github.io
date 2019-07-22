@@ -1,3 +1,4 @@
+
 .modal-button {
     border-style: solid;
     background-color: transparent;
@@ -15,23 +16,24 @@
 }
 .hover-modal:hover {
   border-color: #ff8c9b;
-  color: gray;
+  color: #ff8c9b;
   text-decoration: none;
 }
 
 .after-modal:after {
-  
   border-color: #ff8c9b;
 }
 
 div.div-img-project section div div div {
-  width: 60%;
-/*   padding: 1rem; */
+  width: 100%;
   display: flex;
   overflow: auto;
   justify-content: initial;
+}
 
-
+div.div-img-project section div div div div.modal-content {
+  width: auto;
+  border: 0;
 }
 
 .modal-content {
@@ -44,7 +46,7 @@ div.div-img-project section div div div {
 .title-box {
   font-weight: bold;
   border: 0;
-  font-size: 1.5rem;
+  font-size: 1.5rem;  /*//////////////////////////*/
   background-color: #e5c7bd;
   padding: .5rem 0;
   margin: 0;
@@ -64,7 +66,7 @@ div.div-img-project section div div div {
 .info-box {
   align-items: baseline;
   text-align: left;
-  font-size: .9rem;
+  font-size: .9rem; /*//////////////////////////*/
   font-weight: normal;
   letter-spacing: 0.1rem;
   padding-bottom: 0;
@@ -73,6 +75,7 @@ div.div-img-project section div div div {
 .table-and-icons-in-modal{
   margin: 1rem;
   display: flow-root;
+  margin-bottom: 1.5rem;
 }
 
 .icon-a-modal {
@@ -98,24 +101,37 @@ div.div-img-project section div div div {
 }
 
 
-@media (max-width: 800px) {
+/* control font size */
+@media (min-width: 375px) {
+
+  .title-box {
+    font-size: 1.5rem;
+  }
+  .info-box {
+    font-size: 1.1rem; 
+  }
+
+}
+
+
+
+/* control modal size */
+@media (min-width: 600px) {
   div.div-img-project section div div div {
-    width: 75%;
+    width: 60%;
+    
   }
 }
-@media (max-width: 600px) {
+@media (min-width: 800px) {
   div.div-img-project section div div div {
-    width: 80%;
+    width: 50%;
   }
 }
 
-@media (max-width: 400px) {
+
+@media (min-width: 1000px) {
   div.div-img-project section div div div {
-    width: 100%;
+    width: 40%;
   }
 }
 
-div.div-img-project section div div div div.modal-content {
-  width: auto;
-  border: 0;
-}

@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import "../style/project.css";
-import imagetry from "../img/mdl.png";
-import mundodulce from "../img/mundodulce.jpeg";
 import pokegoal from "../img/pokegoal.jpeg";
-import bq from "../img/bq.JPG";
-import organa from "../img/organa.JPG";
+import bq from "../img/bqmu.jpg";
+import organa from "../img/organamu.jpg";
+import mdlinks from "../img/mdlinksmu.jpg";
 import BQModal from "./Modals/BQModal";
 
 class Project extends Component {
@@ -20,7 +19,7 @@ class Project extends Component {
         <div className="my-grid-row">
           <div className="my-grid-column">
             <div className="div-img-project">
-              <img className="img-project" src={pokegoal} />
+              <img className="img-project" src={organa} />
               ORGANA
               <BQModal />
             </div>
@@ -33,7 +32,7 @@ class Project extends Component {
 
           <div className="my-grid-column">
             <div className="div-img-project">
-              <img className="img-project" src={pokegoal} />
+              <img className="img-project" src={bq} />
               BURGER QUEEN
               <BQModal />
             </div>
@@ -47,13 +46,13 @@ class Project extends Component {
             </div>
           </div>
 
-          {/*  <div className="my-grid-column">
-                        <div className="div-img-project">
-                            <img className="img-project" src={imagetry}/>
-                            MdLinks 
-                            <OrganaModal></OrganaModal>
-                        </div>
-                    </div>  */}
+          <div className="my-grid-column">
+            <div className="div-img-project">
+              <img className="img-project" src={mdlinks} />
+              MdLINKS
+              <BQModal />
+            </div>
+          </div>
         </div>
       </section>
     );
