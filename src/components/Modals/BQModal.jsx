@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Modal from "react-awesome-modal";
-import "../../style/organa-modal.css";
+import "../../style/modal.css";
 import organa from "../../img/ogn.JPG";
 
-export default class OrganaModal extends Component {
+export default class BQModal extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -27,14 +27,14 @@ export default class OrganaModal extends Component {
     return (
       <section>
         <input
-          className="modal-button"
+          className="modal-button hover-modal after-modal"
           type="button"
           value="view more"
           onClick={() => this.openModal()}
         />
         <Modal
           visible={this.state.visible}
-          height="80%"
+          height="75%"
           effect="fadeInUp"
           onClickAway={() => this.closeModal()}
         >
@@ -46,23 +46,25 @@ export default class OrganaModal extends Component {
             <h1 className="title-box">
               {" "}
               Burger Queen{" "}
-              <span className="x-div">
-              <a
-                href="javascript:void(0);"
-                onClick={() => this.closeModal()}
-                className="modal-button cerrar-modal-btn"
-              >
-                X
-              </a></span>
+              <span>
+                <a
+                  href="javascript:void(0);"
+                  onClick={() => this.closeModal()}
+                  className="cerrar-modal-btn hover-modal after-modal"
+                >
+                  X
+                </a>
+              </span>
             </h1>
             <div className="modal-content info-box">
-              <p>It's a Restaurant's Single Page Application. It allows waitress to
-              take customer orders (add and remove items, get the total account,
-              add the date and the waitress name), also, on the kitchen side you
-              can see and delete the orders.
-              </p>
-              <div className="row my-row my-flex table-and-icons-in-modal">
-                <table>
+              
+                It's a Restaurant's Single Page Application. It allows waitress
+                to take customer orders (add and remove items, get the total
+                account, add the date and the waitress name), also, on the
+                kitchen side you can see and delete the orders.
+              
+              
+                <table className="row my-row table-and-icons-in-modal">
                   <tr>
                     <td className="">Stack:</td>
                     <td className="td-description-modal">
@@ -80,12 +82,11 @@ export default class OrganaModal extends Component {
                     <td className="td-description-modal"> Tablet</td>
                   </tr>
                 </table>
-                <div className="modal-content redes-box">
-                  <table className="">
+                  <table className="modal-content redes-box">
                     <tr>
                       <td className="">
                         <a
-                          className="icon-a-modal "
+                          className="icon-a-modal hover-modal after-modal"
                           target="_blank"
                           href="https://marinaestefania.github.io/gdl002-burger-queen/#/tomar-orden"
                         >
@@ -95,7 +96,7 @@ export default class OrganaModal extends Component {
                       <td>
                         {" "}
                         <a
-                          className="icon-a-modal "
+                          className="icon-a-modal hover-modal after-modal "
                           target="_blank"
                           href="https://github.com/MarinaEstefania/gdl002-burger-queen"
                         >
@@ -108,8 +109,6 @@ export default class OrganaModal extends Component {
                       <td>Repository</td>
                     </tr>
                   </table>
-                </div>
-              </div>
             </div>
           </div>
         </Modal>

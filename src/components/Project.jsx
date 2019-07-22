@@ -5,7 +5,7 @@ import mundodulce from "../img/mundodulce.jpeg";
 import pokegoal from "../img/pokegoal.jpeg";
 import bq from "../img/bq.JPG";
 import organa from "../img/organa.JPG";
-import OrganaModal from "./Modals/OrganaModal";
+import BQModal from "./Modals/BQModal";
 
 class Project extends Component {
   render() {
@@ -22,7 +22,7 @@ class Project extends Component {
             <div className="div-img-project">
               <img className="img-project" src={pokegoal} />
               ORGANA
-              <OrganaModal />
+              <BQModal />
             </div>
 
             {/*    <div className="div-img-project">
@@ -35,7 +35,7 @@ class Project extends Component {
             <div className="div-img-project">
               <img className="img-project" src={pokegoal} />
               BURGER QUEEN
-              <OrganaModal />
+              <BQModal />
             </div>
           </div>
 
@@ -43,7 +43,7 @@ class Project extends Component {
             <div className="div-img-project">
               <img className="img-project" src={pokegoal} />
               POKEGOAL
-              <OrganaModal />
+              <BQModal />
             </div>
           </div>
 
