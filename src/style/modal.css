@@ -92,14 +92,15 @@ div.div-img-project section div div div div.modal-content {
 }
 
 .redes-box{
-  display: inline-table;
-  text-align: center;
-  /* display: flex;
-  align-items: center; */
+  display: flex;
+  align-items: center;
   padding-bottom: 0;
   border: none;
 }
 
+.icon-at-modal-col{
+  text-align: center;
+}
 
 /* control font size */
 @media (min-width: 375px) {

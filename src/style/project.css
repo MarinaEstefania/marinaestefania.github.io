@@ -28,8 +28,8 @@
 /* Create four equal columns that sits next to each other */
 
 .my-grid-column {
-  flex: 33%;
-  max-width: 33%;
+  flex: 50%;
+  max-width: 40%;
 }
 
 .img-project {

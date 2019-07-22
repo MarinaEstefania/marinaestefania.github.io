@@ -49,7 +49,7 @@ class Project extends Component {
           <div className="my-grid-column">
             <div className="div-img-project">
               <img className="img-project" src={mdlinks} />
-              MdLINKS
+              .mdLINKS
               <BQModal />
             </div>
           </div>
