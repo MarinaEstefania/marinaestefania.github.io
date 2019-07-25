@@ -5,7 +5,7 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <p className="my-div-pre-title-contact">GET IN TOUCH</p>
+        <p className="my-div-pre-title pre-title-contact">GET IN TOUCH</p>
         <p className="my-div-title-contact">CONTACT</p>
         <div className="row my-flex">
           <p className="my-description-contact">

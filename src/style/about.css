@@ -1,13 +1,3 @@
-.my-div-pre-title-about {
-  color: rgb(204, 175, 69);
-  font-size: 0.7rem;
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  letter-spacing: 0.3rem;
-  font-weight: bold;
-  margin-bottom: 0.01rem !important;
-}
-
 .my-div-title-about {
   text-align: center;
   font-size: 2rem;
@@ -68,17 +58,13 @@
 
 .my-tools {
   display: block;
-  margin: auto;
   align-items: baseline;
   background-color: white;
-  /* #f1f3f5; */
-  /*  border-color: #f7d662; */
-  /* border-style: groove; */
   padding: 1.5rem;
   text-align: center;
   letter-spacing: 0.1rem;
   font-family: "Raleway", sans-serif;
-  text-align: left;
+  margin: auto!important;
 }
 
 .my-skills {

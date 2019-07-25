@@ -15,7 +15,7 @@ const data = {
       role: "Frontend", /******************************* */
       time: "2 weeks",
       platform: "Responsive",
-      website: "https://shareazc.github.io/open-house-organa/#/",
+      website: "https://marinaestefania.github.io/open-house-organa/#/",
       github: "https://github.com/MarinaEstefania/open-house-organa/tree/master/organa"
     },
     {

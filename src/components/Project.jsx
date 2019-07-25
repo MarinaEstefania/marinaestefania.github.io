@@ -29,8 +29,8 @@ class Project extends Component {
     });
     return (
       <section className="my-project-row">
-        <div className="my-div-pre-title-project ">
-          <p>THE SELECTED OF </p>
+        <div>
+          <p className="my-div-pre-title" >THE SELECTED OF</p>
         </div>
         <div className="my-div-title-project ">
           <p>MY WORK</p>

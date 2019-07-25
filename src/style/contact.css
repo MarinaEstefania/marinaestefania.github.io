@@ -1,13 +1,6 @@
-.my-div-pre-title-contact {
-  color: rgb(204, 175, 69);
-  font-size: 0.7rem;
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  letter-spacing: 0.3rem;
-  font-weight: bold;
-  margin-bottom: 0.01rem !important;
+.pre-title-contact{
+  color: rgb(222, 161, 141);
 }
-
 .my-div-title-contact {
   color: beige;
   text-align: center;

@@ -62,10 +62,14 @@ div.div-img-project section div div div div.modal-content {
 .info-box {
   align-items: baseline;
   text-align: left;
-  font-size: 0.9rem; /*//////////////////////////*/
+  font-size: 0.87rem; /*//////////////////////////*/
   font-weight: normal;
   letter-spacing: 0.1rem;
   padding-bottom: 0;
+}
+
+.info-box-p{
+  font-weight: bold;
 }
 
 .table-and-icons-in-modal {

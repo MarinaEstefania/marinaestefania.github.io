@@ -38,7 +38,7 @@ export default class ModalProject extends Component {
           </span>
         </h1>
         <div className="modal-content info-box">
-          <p>{this.props.info.description}</p>
+          <p className="info-box-p">{this.props.info.description}</p>
           <table className="row my-row table-and-icons-in-modal">
           <tr className="my-table-row">
               <td className="title-features">Features:</td>

@@ -1,11 +1,10 @@
-.my-div-pre-title-project {
-  color: rgb(204, 175, 69);
-  font-size: 0.7rem;
+.my-div-pre-title{
+  color: rgb(179, 148, 138);
   text-align: center;
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.3rem;
   font-weight: bold;
-  margin-bottom: 0.01rem !important;
+  margin-bottom: 0rem !important;
 }
 
 .my-div-title-project {
@@ -23,6 +22,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  padding-top: 1.5rem;
 }
 
 /* Create four equal columns that sits next to each other */

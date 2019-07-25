@@ -7,7 +7,7 @@ class About extends Component {
   render() {
     return (
       <div className="all-about">
-        <p className="my-div-pre-title-about">SOMETHING</p>
+        <p className="my-div-pre-title">SOMETHING</p>
         <p className="my-div-title-about">ABOUT ME</p>
         <div className="row my-row my-description-about  ">
           <div className="col-sm-12 col-md-4 my-col ">
@@ -32,9 +32,9 @@ class About extends Component {
             <p>
               I have a big sense of responsibility,{" "}
               <span style={{ fontWeight: "bold" }}>
-                I ask myself the because of the causes
+                I ask myself the why of the things 
               </span>{" "}
-              and I focus on making them work.
+              and I focus on  <span style={{ fontWeight: "bold" }}>solving them.</span>
             </p>
 
             <p>
