@@ -56,3 +56,16 @@
   top: 12px;
   width: 1px;
 }
+
+.home{
+  position: relative;
+  left: 1rem;
+  font-size: 2rem;
+}
+.home a{
+  font-size: 1.2rem;
+}
+.nav-categories{
+  position: absolute;
+  right: 1rem;
+}

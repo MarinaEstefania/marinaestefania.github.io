@@ -6,13 +6,15 @@ class Navbar extends Component {
   render() {
     return (
       <div className="navbar  d-none col-md-12 col-sm-12 d-sm-block my-navbar-padding">
-        <div className="justify-content-center my-flex">
-          <a href="#home">
-            HOME
-          </a>
-          <a className="decoration-bar-navbar" href="#projects">PROJECTS</a>
-          <a className="decoration-bar-navbar" href="#about">ABOUT</a>
-          <a className="decoration-bar-navbar" href="#contact">CONTACT</a>
+        <div className="">
+          <div className = "home"> 
+            <a href="#home"> Marina</a>
+          </div>
+        
+        <div className = "nav-categories">  <a className="decoration-bar-navbar" href="#projects">Projects</a>
+          <a className="decoration-bar-navbar" href="#about">About</a>
+          <a className="decoration-bar-navbar" href="#contact">Contact</a></div>
+        
         </div>
       </div>
     );

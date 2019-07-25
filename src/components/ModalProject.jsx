@@ -38,21 +38,27 @@ export default class ModalProject extends Component {
           </span>
         </h1>
         <div className="modal-content info-box">
-          {this.props.info.description}
+          <p>{this.props.info.description}</p>
           <table className="row my-row table-and-icons-in-modal">
-            <tr>
-              <td className="">Stack:</td>
+          <tr className="my-table-row">
+              <td className="title-features">Features:</td>
+              <td className="td-description-modal">{this.props.info.features}</td>
+            </tr>
+            <tr className="my-table-row">
+              <td className="title-features">Stack:</td>
               <td className="td-description-modal">{this.props.info.stack}</td>
             </tr>
-            <tr>
-              <td className="">Role:</td>
+            <tr className="my-table-row">
+              <td className="title-features">Role:</td>
               <td className="td-description-modal"> {this.props.info.role}</td>
             </tr>
+            <tr className="my-table-row">
+              <td className="title-features">Platforms:</td>
+              <td className="td-description-modal"> {this.props.info.platform} </td>
+            </tr>
             <tr>
-              <td className="">Platforms:</td>
-              <td className="td-description-modal">
-                {this.props.info.platform}
-              </td>
+              <td className="title-features">Dev Time:</td>
+              <td className="td-description-modal"> {this.props.info.time}</td>
             </tr>
           </table>
           <table className="modal-content redes-box">
@@ -64,7 +70,7 @@ export default class ModalProject extends Component {
                   href={this.props.info.website}
                 >
                   <i className="fas fa-link fa-2x" />
-                  Website Link
+                  Demo
                 </a>
               </td>
               <td className="icon-at-modal-col">
@@ -74,7 +80,7 @@ export default class ModalProject extends Component {
                   href={this.props.info.github}
                 >
                   <i className="fab fa-github fa-2x" />
-                  Repository Link
+                  Code
                 </a>
               </td>
             </tr>

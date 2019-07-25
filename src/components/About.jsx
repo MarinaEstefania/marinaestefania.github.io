@@ -96,45 +96,6 @@ class About extends Component {
                 <span>Express</span>
               </div>
             </div>
-            {/*      <div className="row my-row my-flex">
-                             <table className="my-table">
-                                <tr>
-                                    <td className="my-icon-tool"><i className="devicon-react-original colored"></i></td>
-                                    <td>React</td>
-                                </tr>
-                                <tr>
-                                    <td className="my-icon-tool"><i className="devicon-javascript-plain colored"></i></td>
-                                    <td>Javascript</td>
-                                </tr>
-                                <tr>
-                                    <td className="my-icon-tool"><i className="devicon-html5-plain colored"></i></td>
-                                    <td>HTML 5</td>
-                                </tr>
-                                <tr>
-                                    <td className="my-icon-tool"><i className="devicon-css3-plain colored"></i></td>
-                                    <td>CSS 3</td>
-                                </tr>
-                            </table>
-                            <table className="my-table">
-                            <tr>
-                                    <td className="my-icon-tool"><i className="devicon-nodejs-plain-wordmark colored"></i></td>
-                                    <td>Node JS</td>
-                                </tr>
-                            <tr>
-                                    <td className="my-icon-tool"><i className="devicon-bootstrap-plain colored"></i></td>
-                                    <td>Bootstrap</td>
-                                </tr>
-                                <tr>
-                                    <td className="my-icon-tool"><i className="devicon-git-plain colored"></i></td>
-                                    <td>GIT</td>
-                                </tr>
-                                <tr>
-                                    <td className="my-icon-tool"><i className="devicon-mongodb-plain colored"></i></td>
-                                    <td>Mongo DB</td>
-                                </tr>
-                            </table>
-                           
-                        </div> */}
           </div>
         </div>
       </div>
