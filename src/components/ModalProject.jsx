@@ -40,9 +40,11 @@ export default class ModalProject extends Component {
         <div className="modal-content info-box">
           <p className="info-box-p">{this.props.info.description}</p>
           <table className="row my-row table-and-icons-in-modal">
-          <tr className="my-table-row">
+            <tr className="my-table-row">
               <td className="title-features">Features:</td>
-              <td className="td-description-modal">{this.props.info.features}</td>
+              <td className="td-description-modal">
+                {this.props.info.features}
+              </td>
             </tr>
             <tr className="my-table-row">
               <td className="title-features">Stack:</td>
@@ -54,38 +56,37 @@ export default class ModalProject extends Component {
             </tr>
             <tr className="my-table-row">
               <td className="title-features">Platforms:</td>
-              <td className="td-description-modal"> {this.props.info.platform} </td>
+              <td className="td-description-modal">
+                {" "}
+                {this.props.info.platform}{" "}
+              </td>
             </tr>
             <tr>
               <td className="title-features">Dev Time:</td>
               <td className="td-description-modal"> {this.props.info.time}</td>
             </tr>
           </table>
-          <table className="modal-content redes-box">
-            <tr>
-              <td className="icon-at-modal-col">
-                <a
-                  className="icon-a-modal hover-modal after-modal"
-                  target="_blank"
-                  href={this.props.info.website}
-                >
-                  <i className="fas fa-link fa-2x" />
-                  Demo
-                </a>
-              </td>
-              <td className="icon-at-modal-col">
-                <a
-                  className="icon-a-modal hover-modal after-modal "
-                  target="_blank"
-                  href={this.props.info.github}
-                >
-                  <i className="fab fa-github fa-2x" />
-                  Code
-                </a>
-              </td>
-            </tr>
-          </table>
         </div>
+        <section className="section-link-modal">
+          <button className="modal-button hover-modal after-modal link-modal">
+            <a
+              className="icon-a-modal hover-modal after-modal"
+              target="_blank"
+              href={this.props.info.website}
+            >
+              DEMO
+            </a>
+          </button>
+          <button className="modal-button hover-modal after-modal link-modal">
+            <a
+              className="icon-a-modal hover-modal after-modal "
+              target="_blank"
+              href={this.props.info.github}
+            >
+              CODE
+            </a>
+          </button>
+        </section>
       </div>
     );
     return (

@@ -6,7 +6,7 @@ import firebase from "../img/firebase-logo.svg";
 class About extends Component {
   render() {
     return (
-      <div className="all-about">
+      <section className="all-about">
         <p className="my-div-pre-title">SOMETHING</p>
         <p className="my-div-title-about">ABOUT ME</p>
         <div className="row my-row my-description-about  ">
@@ -15,9 +15,9 @@ class About extends Component {
           </div>
           <div className="col-sm-12 col-md-8 my-col my-hello-box">
             {/* <p className="my-hey-title"> Hey!</p> */}
-            <p className="helloP"> Hey! I'm so glad you are here! </p>
+            <p className="helloP"> "The best preparation for tomorrow is doing your best today" </p>
             <p>
-              My name is{" "}
+              Hello! My name is{" "}
               <span style={{ fontWeight: "bold" }}>Marina Estefanía </span>.
             </p>
             <p>
@@ -98,7 +98,7 @@ class About extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     );
   }
 }

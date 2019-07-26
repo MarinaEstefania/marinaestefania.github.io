@@ -1,12 +1,12 @@
 .my-cover-row {
-  height: 80vh;
+  height: 90vh;
   width: 100vw;
   background-color: white;
   margin-top: 2.4rem;
 }
 
 .my-img-cover {
-  background-image: url("../img/screen (5).jpg");
+  background-image: url("../img/coffee-and-laptop-2.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -16,16 +16,9 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-}
-
-.my-col-quote {
-  font-family: "Playfair Display", serif;
-  color: #3b3a3b;
-  font-size: 2rem;
-  text-align: center;
-  max-height: fit-content;
-  margin-bottom: 3vw;
-  padding: 0 4rem 0 4rem;
+  background-color: white;
+  padding-top:1rem;
+  padding-bottom: 1rem;
 }
 
 .my-col-marina {
@@ -46,6 +39,8 @@
   text-align: center;
   max-height: fit-content;
   letter-spacing: 0.4rem;
+  margin-bottom: auto;
+  padding: .25rem;
 }
 
 .my-row-letters {
@@ -56,19 +51,19 @@
   padding-left: 1rem;
 }
 .my-row-cover-redes {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
+  /* position: absolute;
+  bottom: 4rem; */
   display: flex;
   margin: 0px;
   padding: 0px;
-  justify-content: flex-end;
+  justify-content: center;
+  width: 100%;
 }
 
 .icon-redes-cover {
   display: inline-block;
   text-align: center;
-  padding-right: 1rem;
+  padding: 0rem 1rem 0 1rem;
   cursor: pointer;
   color: #a1a19b;
 }
@@ -77,30 +72,11 @@
   color: #ff8c9b;
 }
 
-/* 
-font-family: 'Raleway', sans-serif;
-font-family: 'Playfair Display', serif; */
 
-/* @media screen and (max-width: 812px) {
-  .my-col-quote {
-    font-size: 1.2rem;
-    padding: 0 ;
-}
-}
- */
 
-@media screen and (max-width:576px) {
-  .my-cover-row {
-    margin-top: 0;
-  }
-  .my-col-quote {
-    padding:0;
-  }
-  
+ @media screen and (min-width: 576px) {
+ .my-cover-row {
+  height: 100vh;
 }
-
-@media screen and (max-width:1440px) {
-  .my-col-quote {
-    padding:0;
-  }
 }
+ 

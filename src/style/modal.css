@@ -112,6 +112,18 @@ div.div-img-project section div div div div.modal-content {
   text-align: center;
 }
 
+.section-link-modal{
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.link-modal{
+  max-width:50%;
+  
+  margin: 0 2rem 0 2rem;
+}
+
 /* control font size */
 @media (min-width: 375px) {
   .title-box {

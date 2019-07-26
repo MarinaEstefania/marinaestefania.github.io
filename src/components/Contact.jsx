@@ -4,7 +4,7 @@ import "../style/contact.css";
 class Contact extends Component {
   render() {
     return (
-      <div>
+      <section>
         <p className="my-div-pre-title pre-title-contact">GET IN TOUCH</p>
         <p className="my-div-title-contact">CONTACT</p>
         <div className="row my-flex">
@@ -51,7 +51,7 @@ class Contact extends Component {
                      </form> 
                     </div>*/}
         </div>
-      </div>
+      </section>
     );
   }
 }

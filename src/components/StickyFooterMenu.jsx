@@ -5,7 +5,7 @@ import "../style/stickyFooterMenu.css";
 class StickyFooterMenu extends Component {
   render() {
     return (
-      <div className="navbarF">
+      <section className="navbarF">
         <div className="justify-content-center my-flex">
           <a href="#home">
             <i className="fas fa-home fa-2x my-flex" />Home
@@ -20,7 +20,7 @@ class StickyFooterMenu extends Component {
             <i className="fas fa-address-book fa-2x my-flex" />Contact
           </a>
         </div>
-      </div>
+      </section>
     );
   }
 }

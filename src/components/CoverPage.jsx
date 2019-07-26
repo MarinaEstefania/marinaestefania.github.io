@@ -6,16 +6,11 @@ class CoverPage extends Component {
     return (
       <div>
         <div className="row my-cover-row my-row">
-          <div className="col-sm-12 col-lg-6 my-col my-flex my-row-letters ">
-            <div className="row col-lg-8 my-row my-row-cover-letters">
-              <p className="my-col-quote">
-                "The best preparation for tomorrow is doing your best today"
-              </p>
+          <div className="col-12 my-col my-flex my-row-letters my-img-cover ">
+            <div className="row col-lg-12 my-row my-row-cover-letters">
               <p className="my-col-marina"> MARINA ESTEFANIA</p>
-              <p className="my-col-front"> FRONT-END DEVELOPER</p>
-            </div>
-
-            <div className="row col-lg-8 my-row my-row-cover-redes">
+              <p className="my-col-front"> FRONTEND DEVELOPER</p>
+              <section className="my-row my-row-cover-redes">
               <a
                 className="icon-redes-cover"
                 target="_blank"
@@ -37,11 +32,13 @@ class CoverPage extends Component {
               >
                 <i class="fas fa-envelope" />
               </a>
-            </div>
+            </section>
           </div>
+          
+            </div>
 
-          <div className="col-sm-12 col-lg-6 my-col my-img-cover" />
-        </div>
+            
+              </div>
       </div>
     );
   }
