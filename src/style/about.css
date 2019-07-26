@@ -7,7 +7,6 @@
 }
 
 .my-description-about {
-  padding: 1.5rem;
   text-align: center;
   font-family: "Raleway", sans-serif;
   text-align: left;
@@ -46,7 +45,7 @@
   text-align: center;
   letter-spacing: 0.1rem;
   font-family: "Raleway", sans-serif;
-  margin: auto!important;
+  margin: auto !important;
 }
 
 .my-skills {
@@ -75,25 +74,6 @@
   width: 6rem;
 }
 
-/* .my-hello-box{
-    position: relative;
-    max-height: fit-content;
-    border-radius: 4px;
-    margin-left: -10%;
-    text-align: left;
-    background-color:  #ceded7 white;
-    border-color: black;
-     border-style: dashed; 
-    padding: 1rem;
-    -webkit-box-shadow: -44px 32px 5px 0px rgba(204,204,204,0.67);
-    -moz-box-shadow: -44px 32px 5px 0px rgba(204,204,204,0.67);
-    box-shadow: -44px 32px 5px 0px rgba(204,204,204,0.67);
- 
-    -webkit-box-shadow: 44px 34px 0px 0px rgba(204,204,204,1);
-    -moz-box-shadow: 44px 34px 0px 0px rgba(204,204,204,1);
-    box-shadow: 44px 34px 0px 0px rgba(204,204,204,1);
-
-   -webkit-box-shadow: 22px 21px 0px 0px rgba(143,137,143,1);
--moz-box-shadow: 22px 21px 0px 0px rgba(143,137,143,1);
-box-shadow: 22px 21px 0px 0px rgba(143,137,143,1);
-} */
+.my-hello-box {
+  margin-top: 1rem;
+}

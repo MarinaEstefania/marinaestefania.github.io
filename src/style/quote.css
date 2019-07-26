@@ -1,29 +1,66 @@
- @font-face {
-  font-family: bromello;
-  src: url(../font/bromello-Regular.ttf);
-} 
-@font-face {
-    font-family: signerica;
-    src: url(../font/Signerica_Medium.ttf);
-  }
-  @font-face {
-    font-family: notera;
-    src: url(../font/Notera_PersonalUseOnly.ttf);
-  }
-  
-  
-.quote-quote {
-    font-family: notera;
-    font-size: 3.5rem;
-    margin: 0;
-  }
+.parallax {
+  background-image: url("../img/imageq.jpg");
+  height: 100%;
 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.quote-sec {
+  margin: 1rem 0;
+}
 .helloP {
-    /* font-family: "Playfair Display", serif; */
-    font-family: "Raleway", sans-serif;
-    font-size: 1rem;
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+  margin: auto;
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+  color: #746f6f;
+  letter-spacing: 0.05rem;
+}
+
+.over-helloP {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  color: #ff8c9b;
+  text-align: center;
+}
+
+.author {
+  font-style: normal;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: smaller;
+}
+
+@media screen and (max-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
   }
-  
+}
+
+@media screen and (min-width: 768px) {
+  .helloP {
+    font-size: 1.2rem; /* 
+      margin-left: 10rem;
+      margin-right: 10rem; */
+  }
+  .author {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .helloP {
+    font-size: 1.6rem; /* 
+      margin-left: 10rem;
+      margin-right: 10rem; */
+  }
+  .author {
+    font-size: 1.1rem;
+  }
+}

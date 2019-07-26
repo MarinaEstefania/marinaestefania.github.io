@@ -9,19 +9,15 @@ class About extends Component {
       <section className="all-about">
         <p className="my-div-pre-title">SOMETHING</p>
         <p className="my-div-title-about">ABOUT ME</p>
+
         <div className="row my-row my-description-about  ">
-
-
           <div className="col-sm-12 col-md-4 my-col ">
-            
             <img className="my-img-about" src={aboutImage} />
           </div>
           <div className="col-sm-12 col-md-8 my-col my-hello-box">
-            {/* <p className="my-hey-title"> Hey!</p> */}
-           
             <p>
               Hello! My name is{" "}
-              <span style={{ fontWeight: "bold" }}>Marina Estefanía </span>.
+              <span style={{ fontWeight: "bold" }}>Marina Estefanía</span>.
             </p>
             <p>
               I'm a Biochemistry Engineer by profession, and I've always been
@@ -35,9 +31,10 @@ class About extends Component {
             <p>
               I have a big sense of responsibility,{" "}
               <span style={{ fontWeight: "bold" }}>
-                I ask myself the why of the things 
+                I ask myself the why of the things
               </span>{" "}
-              and I focus on  <span style={{ fontWeight: "bold" }}>solving them.</span>
+              and I focus on{" "}
+              <span style={{ fontWeight: "bold" }}>solving them.</span>
             </p>
 
             <p>

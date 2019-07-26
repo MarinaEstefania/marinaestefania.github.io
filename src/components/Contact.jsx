@@ -5,7 +5,7 @@ class Contact extends Component {
   render() {
     return (
       <section>
-        <div className="env col-12 my-col my-flex ">adsadsada</div>
+        <div className="col-12 my-col my-flex "></div>
         <p className="my-div-pre-title pre-title-contact">GET IN TOUCH</p>
         <p className="my-div-title-contact">CONTACT</p>
         <div className="row my-flex">

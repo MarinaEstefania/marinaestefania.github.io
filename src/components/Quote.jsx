@@ -4,8 +4,13 @@ import "../style/quote.css";
 class Quote extends Component {
   render() {
     return (
-      <section  className=" col-sm-9 col-md-7 col-lg-6">
-        <p className="helloP ">The best preparation for<p>tomorrow is doing your best<p className="quote-quote">today</p></p></p>
+      <section className="col-sm-11 col-md-6 col-lg-4 quote-sec">
+        <p className="helloP">
+          "The best <span className="over-helloP"> preparation</span> for
+          tomorrow is doing your best
+          <span className="over-helloP"> today</span>"
+        </p>
+        <p className="helloP author">-H. Jackson Brown, Jr.</p>
       </section>
     );
   }
