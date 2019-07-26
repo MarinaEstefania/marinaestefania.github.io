@@ -12,7 +12,7 @@ class Navbar extends Component {
           </div> */}
          </div>
           <div className = "nav-categories"> 
-            <a href="#home"> Marina</a>
+            <a href="#home">Home</a>
             <a className="decoration-bar-navbar" href="#projects">Projects</a>
             <a className="decoration-bar-navbar" href="#about">About</a>
             <a className="decoration-bar-navbar" href="#contact">Contact</a>

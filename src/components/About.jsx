@@ -10,12 +10,15 @@ class About extends Component {
         <p className="my-div-pre-title">SOMETHING</p>
         <p className="my-div-title-about">ABOUT ME</p>
         <div className="row my-row my-description-about  ">
+
+
           <div className="col-sm-12 col-md-4 my-col ">
+            
             <img className="my-img-about" src={aboutImage} />
           </div>
           <div className="col-sm-12 col-md-8 my-col my-hello-box">
             {/* <p className="my-hey-title"> Hey!</p> */}
-            <p className="helloP"> "The best preparation for tomorrow is doing your best today" </p>
+           
             <p>
               Hello! My name is{" "}
               <span style={{ fontWeight: "bold" }}>Marina Estefanía </span>.
@@ -26,8 +29,8 @@ class About extends Component {
               <span style={{ fontWeight: "bold" }}>
                 Information Technology, logic and mathematics
               </span>{" "}
-              so now I decided become a Front End Developer.
-              <span style={{ color: "#ff8c9b" }}>❤</span>
+              so now I decided become a Front End Developer
+              <span style={{ color: "#ff8c9b" }}> ❤</span>.
             </p>
             <p>
               I have a big sense of responsibility,{" "}

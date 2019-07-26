@@ -10,7 +10,9 @@ class CoverPage extends Component {
             <div className="row col-lg-12 my-row my-row-cover-letters">
               <p className="my-col-marina"> MARINA ESTEFANIA</p>
               <p className="my-col-front"> FRONTEND DEVELOPER</p>
-              <section className="my-row my-row-cover-redes">
+              
+          </div>
+          <section className="my-row my-row-cover-redes">
               <a
                 className="icon-redes-cover"
                 target="_blank"
@@ -33,8 +35,6 @@ class CoverPage extends Component {
                 <i class="fas fa-envelope" />
               </a>
             </section>
-          </div>
-          
             </div>
 
             

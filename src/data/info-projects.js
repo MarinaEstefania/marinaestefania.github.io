@@ -10,8 +10,8 @@ const data = {
       name: "ORGANA",
       img: organa,
       stack: "React, Firebase, Javascript, CSS3, HTML5, Bootstrap, Libraries: QrReader, Moments.",
-      description: " It's a Web Application that allows keeping attendance's records by reading QR codes. It's currently used in Laboratora's classroom.",
-      features: "Autentication, attendance's registration, successful registration alert, error alert, identify external codes, identify double attendance.",
+      description: "Currently used in Laboratora's classroom. It's a Web Application that allows keeping attendance's records by reading QR codes.",
+      features: "Autentication, attendance's registration, successful registration alert, error alert, identify external codes, identify double attendance attempt.",
       role: "Frontend", /******************************* */
       time: "2 weeks",
       platform: "Responsive",

@@ -32,24 +32,6 @@
   color: /*  #d8aa9a; */ rgb(37, 37, 37);
 }
 
-@font-face {
-  font-family: bromello;
-  src: url(../font/bromello-Regular.ttf);
-}
-
-.my-hey-title {
-  font-family: bromello;
-  font-weight: bold;
-  font-size: 3.5rem;
-  margin: 0;
-}
-
-.helloP {
-  font-family: "Playfair Display", serif;
-  font-size: 2rem;
-  margin-top: 1rem;
-}
-
 .my-skills-title {
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;

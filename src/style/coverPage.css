@@ -51,8 +51,8 @@
   padding-left: 1rem;
 }
 .my-row-cover-redes {
-  /* position: absolute;
-  bottom: 4rem; */
+   position: absolute;
+  bottom: 1rem; 
   display: flex;
   margin: 0px;
   padding: 0px;
@@ -74,9 +74,19 @@
 
 
 
+@media screen and (min-width: 376px) {
+  
+  
+ .my-row-cover-redes {
+   position: absolute;
+  bottom: 2rem; 
+ }
+ 
+ }
  @media screen and (min-width: 576px) {
  .my-cover-row {
   height: 100vh;
 }
+
+
 }
- 
