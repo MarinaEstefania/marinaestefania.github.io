@@ -74,7 +74,7 @@ export default class ModalProject extends Component {
               target="_blank"
               href={this.props.info.website}
             >
-              DEMO
+              demo
             </a>
           </button>
           <button className="modal-button hover-modal after-modal link-modal">
@@ -83,7 +83,7 @@ export default class ModalProject extends Component {
               target="_blank"
               href={this.props.info.github}
             >
-              CODE
+              code
             </a>
           </button>
         </section>

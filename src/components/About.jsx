@@ -87,14 +87,14 @@ class About extends Component {
                 <i className="my-icon-tool devicon-github-plain" />
                 <span>GitHub</span>
               </div>
-              <div className=" icon-and-name-skills ">
+             {/*  <div className=" icon-and-name-skills ">
                 <i className="my-icon-tool devicon-mongodb-plain" />
                 <span>MongoDB</span>
               </div>
               <div className=" icon-and-name-skills ">
                 <i className="my-icon-tool devicon-express-original" />
                 <span>Express</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
