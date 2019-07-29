@@ -26,8 +26,8 @@
 .navbar a:after {
   position: absolute;
   bottom: 7px;
-  left: 0px;
-  width: 100%;
+  left: 10%;
+  width: 80%;
   height: 4px;
   background-color: #ff8c9b; /* rgb(250, 241, 109);*/
   content: "";
