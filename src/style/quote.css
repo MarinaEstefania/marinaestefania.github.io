@@ -39,7 +39,7 @@
 
 @media screen and (max-width: 1366px) {
   .parallax {
-    background-attachment: scroll;
+    background-image: url("../img/imageq-small.jpg");
   }
 }
 

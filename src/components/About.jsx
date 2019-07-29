@@ -2,6 +2,15 @@ import React, { Component } from "react";
 import "../style/about.css";
 import aboutImage from "../img/fagreen.jpeg";
 import firebase from "../img/firebase-logo.svg";
+import team from "../img/team.png"
+import english from "../img/talk.png"
+import self from "../img/self.png"
+import responsable from "../img/responsable.png"
+import solving from "../img/solving.png"
+import research from "../img/research.png"
+import planning from "../img/planning.png"
+import scrum from "../img/scrum.png"
+
 
 class About extends Component {
   render() {
@@ -43,9 +52,10 @@ class About extends Component {
             </p>
           </div>
         </div>
-        <div className="row my-row my-flex my-tools col-lg-9">
-          <div className=" col my-col  ">
-            <div className="row my-row my-flex my-skills-title">
+        <div className="row my-row my-flex my-tools">
+          <div className=" col-6 my-col dev-tools tools ">
+            
+            <div className="row my-row my-flex my-skills-title ">
               {" "}
               Software Dev Tools
             </div>
@@ -87,14 +97,55 @@ class About extends Component {
                 <i className="my-icon-tool devicon-github-plain" />
                 <span>GitHub</span>
               </div>
-             {/*  <div className=" icon-and-name-skills ">
+              <div className=" icon-and-name-skills ">
                 <i className="my-icon-tool devicon-mongodb-plain" />
                 <span>MongoDB</span>
-              </div>
+              </div> {/*
               <div className=" icon-and-name-skills ">
                 <i className="my-icon-tool devicon-express-original" />
                 <span>Express</span>
               </div> */}
+            </div>
+          </div>
+          <div className=" col-6 my-col  tools ">
+            <div className="row my-row my-flex my-skills-title">
+              {" "}
+              Skills
+            </div>
+            <div className=" my-flex my-flex-wrap">
+            <div className=" icon-and-name-skills firebase-div">
+              <img className="firebase-icon" src={self} />
+                <span>Self-Learning</span>
+              </div>
+              <div className=" icon-and-name-skills firebase-div">
+              <img className="firebase-icon" src={responsable} />
+                <span>Responsability</span>
+                <span> </span>
+              </div>
+              <div className=" icon-and-name-skills firebase-div">
+              <img className="firebase-icon" src={solving} />
+                <span>Problem Solving</span>
+              </div>
+              <div className=" icon-and-name-skills firebase-div">
+              <img className="firebase-icon" src={team} />
+                <span>Team Work</span>
+              </div>
+              <div className=" icon-and-name-skills firebase-div">
+                <img className="firebase-icon" src={planning} />
+                <span>Planning</span>
+              </div>
+              <div className=" icon-and-name-skills firebase-div">
+                <img className="firebase-icon" src={research} />
+                <span>Research</span>
+              </div>
+              <div className=" icon-and-name-skills firebase-div">
+              <img className="firebase-icon" src={scrum} />
+                <span>Scrum</span>
+              </div>
+              <div className=" icon-and-name-skills firebase-div">
+              <img className="firebase-icon" src={english} />
+                <span>English LevelB2</span>
+              </div>
             </div>
           </div>
         </div>

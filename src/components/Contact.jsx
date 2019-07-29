@@ -21,21 +21,21 @@ class Contact extends Component {
             </p>
             <p>
               <a
-                className="icon-redes-contact fa-3x "
+                className="icon-redes-contact fa-2x "
                 target="_blank"
                 href="https://www.linkedin.com/in/MarinaEstefania/"
               >
                 <i className="fab fa-linkedin-in" />
               </a>
               <a
-                className="icon-redes-contact fa-3x"
+                className="icon-redes-contact fa-2x"
                 target="_blank"
                 href="https://github.com/MarinaEstefania"
               >
                 <i className="fab fa-github" />
               </a>
               <a
-                className="icon-redes-contact fa-3x"
+                className="icon-redes-contact fa-2x"
                 target="_blank"
                 href="mailto:m.garciac11@gmail.com"
               >
