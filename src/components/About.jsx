@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../style/about.css";
 import aboutImage from "../img/fagreen.jpeg";
+import api from "../img/api.png"
 import firebase from "../img/firebase-logo.svg";
 import team from "../img/team.png"
 import english from "../img/talk.png"
@@ -10,6 +11,7 @@ import solving from "../img/solving.png"
 import research from "../img/research.png"
 import planning from "../img/planning.png"
 import scrum from "../img/scrum.png"
+
 
 
 class About extends Component {
@@ -97,9 +99,9 @@ class About extends Component {
                 <i className="my-icon-tool devicon-github-plain" />
                 <span>GitHub</span>
               </div>
-              <div className=" icon-and-name-skills ">
-                <i className="my-icon-tool devicon-mongodb-plain" />
-                <span>MongoDB</span>
+              <div className=" icon-and-name-skills firebase-div ">
+                <img className="firebase-icon" src={api} />
+                <span>API</span>
               </div> {/*
               <div className=" icon-and-name-skills ">
                 <i className="my-icon-tool devicon-express-original" />

@@ -69,6 +69,7 @@ border-color: #f0ecec
 }
 .firebase-icon {
   display: block;
+  min-width: 49.6px;
   max-width: 2.5rem;
   margin: auto;
 }

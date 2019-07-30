@@ -30,10 +30,10 @@ class Project extends Component {
     return (
       <section className="my-project-row">
         <div>
-          <p className="my-div-pre-title" >THE SELECTED OF</p>
+          <p className="my-div-pre-title" >A FEW OF MY</p>
         </div>
         <div className="my-div-title-project ">
-          <p>MY WORK</p>
+          <p>PROJECTS</p>
         </div>
         <div className="my-grid-row">
           {projectCards}

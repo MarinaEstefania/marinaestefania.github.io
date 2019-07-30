@@ -9,16 +9,13 @@ class Contact extends Component {
         <p className="my-div-pre-title pre-title-contact">GET IN TOUCH</p>
         <p className="my-div-title-contact">CONTACT</p>
         <div className="row my-flex">
-          <p className="my-description-contact">
-            Let's make your website set appart from the competition!
-          </p>
           <div div className="col-sm-12 col-md-8 my-col">
-            {/*  <p>Have a question or want to work together?</p> */}
-            {/* <p className="my-description-contact">Whether you would like my services for a project, get extra information on any of my work, ask me about this site or just say hello then I would love to hear from you.
-                   </p> */}
             <p p className="my-description-contact">
-              Do you have any question or just say hello?
+              Do you have any question or just want to say hello?
             </p>
+          {/*   <p> 
+              <a className="cv-button" href="download/acme-doc-2.0.1.txt" download="Acme Documentation (ver. 2.0.1).txt">Download CV</a>
+           </p> */}
             <p>
               <a
                 className="icon-redes-contact fa-2x "
@@ -41,7 +38,9 @@ class Contact extends Component {
               >
                 <i className="fas fa-envelope" />
               </a>
+             
             </p>
+        
           </div>
           {/*  <div className="col-sm-12 col-md-7 my-col my-flex">
                      <form>
