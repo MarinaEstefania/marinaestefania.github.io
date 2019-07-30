@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93c4538e9535d9421823b08a43252218",
+    "revision": "b77dd4ea6e49df1d93063b5d081f6f69",
     "url": "/index.html"
   },
   {
-    "revision": "85937cb0f96ba21329e1",
-    "url": "/static/css/main.26ab004f.chunk.css"
+    "revision": "bca380f6f3e2d28ec1b6",
+    "url": "/static/css/main.a1211282.chunk.css"
   },
   {
-    "revision": "7db547ec905f0d4d319f",
-    "url": "/static/js/2.5b0f502d.chunk.js"
+    "revision": "13c000ff57cb89784b43",
+    "url": "/static/js/2.61fac9f9.chunk.js"
   },
   {
-    "revision": "85937cb0f96ba21329e1",
-    "url": "/static/js/main.acc7e0a2.chunk.js"
+    "revision": "bca380f6f3e2d28ec1b6",
+    "url": "/static/js/main.80c14bb8.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -24,16 +24,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bqmu.b57811c0.jpg"
   },
   {
-    "revision": "061a919b027458be6cb721a5d5f57d9d",
-    "url": "/static/media/bromello-Regular.061a919b.ttf"
+    "revision": "927b77ba77f6281005df3a8a10717fb0",
+    "url": "/static/media/coffee-and-laptop-2.927b77ba.jpeg"
   },
   {
     "revision": "5952d73ab9abd6253923f1143ed81772",
     "url": "/static/media/fagreen.5952d73a.jpeg"
   },
   {
-    "revision": "bfa69c4f3255d5c564c2ec600ff9885e",
-    "url": "/static/media/firebase-logo.bfa69c4f.svg"
+    "revision": "aad6332d885a1a4938a09d7b2c9cbd78",
+    "url": "/static/media/firebase-logo.aad6332d.svg"
+  },
+  {
+    "revision": "4b9bf62a5dcdb1442ab9dc3a935ce38b",
+    "url": "/static/media/imageq-small.4b9bf62a.jpg"
+  },
+  {
+    "revision": "3e2999975e13f71f45eed3478018641b",
+    "url": "/static/media/imageq.3e299997.jpg"
   },
   {
     "revision": "0d362a5b96cd6d9fefab4d65e2498c9e",
@@ -46,9 +54,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "18302d3f5c9555483aebf5c0c0bf47ec",
     "url": "/static/media/pokegoal.18302d3f.jpeg"
-  },
-  {
-    "revision": "e63353ceaa457034ca48f70236726b89",
-    "url": "/static/media/screen (5).e63353ce.jpg"
   }
 ]);

@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.26ab004f.chunk.css",
-    "main.js": "/static/js/main.acc7e0a2.chunk.js",
-    "main.js.map": "/static/js/main.acc7e0a2.chunk.js.map",
+    "main.css": "/static/css/main.a1211282.chunk.css",
+    "main.js": "/static/js/main.80c14bb8.chunk.js",
+    "main.js.map": "/static/js/main.80c14bb8.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.5b0f502d.chunk.js": "/static/js/2.5b0f502d.chunk.js",
-    "static/js/2.5b0f502d.chunk.js.map": "/static/js/2.5b0f502d.chunk.js.map",
+    "static/js/2.61fac9f9.chunk.js": "/static/js/2.61fac9f9.chunk.js",
+    "static/js/2.61fac9f9.chunk.js.map": "/static/js/2.61fac9f9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c38793dc71aacf391527204921e1bee7.js": "/precache-manifest.c38793dc71aacf391527204921e1bee7.js",
+    "precache-manifest.10aee46fdfe137014218845d2f5dd87a.js": "/precache-manifest.10aee46fdfe137014218845d2f5dd87a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.26ab004f.chunk.css.map": "/static/css/main.26ab004f.chunk.css.map",
+    "static/css/main.a1211282.chunk.css.map": "/static/css/main.a1211282.chunk.css.map",
     "static/media/bqmu.jpg": "/static/media/bqmu.b57811c0.jpg",
-    "static/media/about.css": "/static/media/bromello-Regular.061a919b.ttf",
+    "static/media/coverPage.css": "/static/media/coffee-and-laptop-2.927b77ba.jpeg",
     "static/media/fagreen.jpeg": "/static/media/fagreen.5952d73a.jpeg",
-    "static/media/firebase-logo.svg": "/static/media/firebase-logo.bfa69c4f.svg",
+    "static/media/firebase-logo.svg": "/static/media/firebase-logo.aad6332d.svg",
+    "static/media/quote.css": "/static/media/imageq.3e299997.jpg",
     "static/media/mdlinksmu.jpg": "/static/media/mdlinksmu.0d362a5b.jpg",
     "static/media/organamu.jpg": "/static/media/organamu.2a202e33.jpg",
-    "static/media/pokegoal.jpeg": "/static/media/pokegoal.18302d3f.jpeg",
-    "static/media/coverPage.css": "/static/media/screen (5).e63353ce.jpg"
+    "static/media/pokegoal.jpeg": "/static/media/pokegoal.18302d3f.jpeg"
   }
 }
