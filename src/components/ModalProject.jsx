@@ -65,6 +65,10 @@ export default class ModalProject extends Component {
               <td className="title-features">Dev Time:</td>
               <td className="td-description-modal"> {this.props.info.time}</td>
             </tr>
+            <tr>
+              <td className="title-features">Dev Number:</td>
+              <td className="td-description-modal"> {this.props.info.devNum}</td>
+            </tr>
           </table>
         </div>
         <section className="section-link-modal">
