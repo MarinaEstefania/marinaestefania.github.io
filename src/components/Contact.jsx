@@ -13,9 +13,9 @@ class Contact extends Component {
             <p p className="my-description-contact">
               Do you have any question or just want to say hello?
             </p>
-          {/*   <p> 
-              <a className="cv-button" href="download/acme-doc-2.0.1.txt" download="Acme Documentation (ver. 2.0.1).txt">Download CV</a>
-           </p> */}
+          {  <p> 
+              <a className="cv-button" href="download/acme-doc-2.0.1.txt" download="Acme Documentation (ver. 2.0.1).txt">Check my CV</a>
+           </p>}
             <p>
               <a
                 className="icon-redes-contact fa-2x "

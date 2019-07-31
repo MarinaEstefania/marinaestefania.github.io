@@ -1,18 +1,18 @@
 import React, { Component } from "react";
 import "../style/about.css";
 import aboutImage from "../img/fagreen.jpeg";
-import api from "../img/api.png"
+import api from "../img/api.png";
 import firebase from "../img/firebase-logo.svg";
-import team from "../img/team.png"
-import english from "../img/talk.png"
-import self from "../img/self.png"
-import responsable from "../img/responsable.png"
-import solving from "../img/solving.png"
-import research from "../img/research.png"
-import planning from "../img/planning.png"
-import scrum from "../img/scrum.png"
-
-
+import team from "../img/team.png";
+import english from "../img/talk.png";
+import self from "../img/self.png";
+import responsable from "../img/responsable.png";
+import solving from "../img/solving.png";
+import research from "../img/research.png";
+import planning from "../img/planning.png";
+import scrum from "../img/scrum.png";
+import communication from "../img/communication.png";
+import adapta from "../img/adapta.png";
 
 class About extends Component {
   render() {
@@ -31,21 +31,21 @@ class About extends Component {
               <span style={{ fontWeight: "bold" }}>Marina Estefanía</span>.
             </p>
             <p>
-              I'm a Biochemistry Engineer by profession, and I've always been
-              interested in{" "}
+              I am a responsible professional, eager for knowledge, improving
+              and carrying out my daily activities correctly.{" "}
+              <span style={{ fontWeight: "bold" }}>
+                I love to know how things are done{" "}
+              </span>
+              and reach out to see how can make things happen.{" "}
+            </p>
+            <p>
+              I have a Bachelor's degree in Chemistry Engineering but I've
+              always been interested in the{" "}
               <span style={{ fontWeight: "bold" }}>
                 Information Technology, logic and mathematics
               </span>{" "}
-              so now I decided become a Front End Developer
+              so I decided to become a Front End Developer.
               <span style={{ color: "#ff8c9b" }}> ❤</span>.
-            </p>
-            <p>
-              I have a big sense of responsibility,{" "}
-              <span style={{ fontWeight: "bold" }}>
-                I ask myself the why of the things
-              </span>{" "}
-              and I focus on{" "}
-              <span style={{ fontWeight: "bold" }}>solving them.</span>
             </p>
 
             <p>
@@ -56,7 +56,6 @@ class About extends Component {
         </div>
         <div className="row my-row my-flex my-tools">
           <div className=" col-6 my-col dev-tools tools ">
-            
             <div className="row my-row my-flex my-skills-title ">
               {" "}
               Software Dev Tools
@@ -102,7 +101,8 @@ class About extends Component {
               <div className=" icon-and-name-skills firebase-div ">
                 <img className="firebase-icon" src={api} />
                 <span>API</span>
-              </div> {/*
+              </div>{" "}
+              {/*
               <div className=" icon-and-name-skills ">
                 <i className="my-icon-tool devicon-express-original" />
                 <span>Express</span>
@@ -112,24 +112,36 @@ class About extends Component {
           <div className=" col-6 my-col  tools ">
             <div className="row my-row my-flex my-skills-title">
               {" "}
-              Skills
+              Soft Skills
             </div>
             <div className=" my-flex my-flex-wrap">
-            <div className=" icon-and-name-skills firebase-div">
-              <img className="firebase-icon" src={self} />
+              <div className=" icon-and-name-skills firebase-div">
+                <img className="firebase-icon" src={english} />
+                <span>English 80%</span>
+              </div>
+              <div className=" icon-and-name-skills firebase-div">
+                <img className="firebase-icon" src={scrum} />
+                <span>Scrum</span>
+              </div>
+              <div className=" icon-and-name-skills firebase-div">
+                <img className="firebase-icon" src={communication} />
+                <span>Communication</span>
+              </div>
+              <div className=" icon-and-name-skills firebase-div">
+                <img className="firebase-icon" src={self} />
                 <span>Self-Learning</span>
               </div>
               <div className=" icon-and-name-skills firebase-div">
-              <img className="firebase-icon" src={responsable} />
+                <img className="firebase-icon" src={responsable} />
                 <span>Responsability</span>
                 <span> </span>
               </div>
               <div className=" icon-and-name-skills firebase-div">
-              <img className="firebase-icon" src={solving} />
+                <img className="firebase-icon" src={solving} />
                 <span>Problem Solving</span>
               </div>
               <div className=" icon-and-name-skills firebase-div">
-              <img className="firebase-icon" src={team} />
+                <img className="firebase-icon" src={team} />
                 <span>Team Work</span>
               </div>
               <div className=" icon-and-name-skills firebase-div">
@@ -141,12 +153,8 @@ class About extends Component {
                 <span>Research</span>
               </div>
               <div className=" icon-and-name-skills firebase-div">
-              <img className="firebase-icon" src={scrum} />
-                <span>Scrum</span>
-              </div>
-              <div className=" icon-and-name-skills firebase-div">
-              <img className="firebase-icon" src={english} />
-                <span>English LevelB2</span>
+                <img className="firebase-icon" src={adapta} />
+                <span>Adaptability</span>
               </div>
             </div>
           </div>

@@ -51,7 +51,7 @@ export default class ModalProject extends Component {
               <td className="td-description-modal">{this.props.info.stack}</td>
             </tr>
             <tr className="my-table-row">
-              <td className="title-features">Role:</td>
+              <td className="title-features">My Role:</td>
               <td className="td-description-modal"> {this.props.info.role}</td>
             </tr>
             <tr className="my-table-row">
@@ -61,12 +61,12 @@ export default class ModalProject extends Component {
                 {this.props.info.platform}{" "}
               </td>
             </tr>
-            <tr>
+            <tr className="my-table-row">
               <td className="title-features">Dev Time:</td>
               <td className="td-description-modal"> {this.props.info.time}</td>
             </tr>
             <tr>
-              <td className="title-features">Dev Number:</td>
+              <td className="title-features">Num of Developers:</td>
               <td className="td-description-modal"> {this.props.info.devNum}</td>
             </tr>
           </table>
