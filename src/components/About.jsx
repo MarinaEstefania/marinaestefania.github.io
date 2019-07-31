@@ -13,7 +13,7 @@ import planning from "../img/planning.png";
 import scrum from "../img/scrum.png";
 import communication from "../img/communication.png";
 import adapta from "../img/adapta.png";
-import marina from "../cv/CVMarina.pdf"
+import marina from "../cv/CV-MarinaGarcia.pdf"
 
 
 class About extends Component {
@@ -55,7 +55,7 @@ class About extends Component {
               the pool.
             </p>
             <p> 
-              <a className="modal-button hover-modal after-modal " href={marina} download="MarinaGarciaCV.pdf">Download my CV</a>
+              <a className="modal-button hover-modal after-modal " href={marina} download="CV-MarinaGarcia.pdf">Download my CV</a>
            </p>
           </div>
         </div>
