@@ -6,16 +6,12 @@ class Contact extends Component {
     return (
       <section>
         <div className="col-12 my-col my-flex "></div>
-        <p className="my-div-pre-title pre-title-contact">GET IN TOUCH</p>
-        <p className="my-div-title-contact">CONTACT</p>
+        <p className="my-div-pre-title pre-title-contact">ANY QUESTIONS?</p>
+        <p className="my-div-title-contact">CONTACT ME</p>
         <div className="row my-flex">
           <div div className="col-sm-12 col-md-8 my-col">
-            <p p className="my-description-contact">
-              Do you have any question or just want to say hello?
-            </p>
-          {  <p> 
-              <a className="cv-button" href="download/acme-doc-2.0.1.txt" download="Acme Documentation (ver. 2.0.1).txt">Check my CV</a>
-           </p>}
+        
+           
             <p>
               <a
                 className="icon-redes-contact fa-2x "
@@ -42,14 +38,9 @@ class Contact extends Component {
             </p>
         
           </div>
-          {/*  <div className="col-sm-12 col-md-7 my-col my-flex">
-                     <form>
-                       <input className="d" placeholder="Name" type="text" required></input>
-                       <input className="d" placeholder="Enter email" type="email" required></input>
-                       <textarea className="d" placeholder="Your Message" type="email" spellCheck="false"></textarea>
-                     <input className="my-submit" type="submit" value="SUBMIT" ></input>
-                     </form> 
-                    </div>*/}
+        {/*  <p p className="my-description-contact">
+              Also check my cv
+            </p> */}
         </div>
       </section>
     );

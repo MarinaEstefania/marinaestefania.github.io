@@ -13,6 +13,8 @@ import planning from "../img/planning.png";
 import scrum from "../img/scrum.png";
 import communication from "../img/communication.png";
 import adapta from "../img/adapta.png";
+import marina from "../cv/CVMarina.pdf"
+
 
 class About extends Component {
   render() {
@@ -36,7 +38,7 @@ class About extends Component {
               <span style={{ fontWeight: "bold" }}>
                 I love to know how things are done{" "}
               </span>
-              and reach out to see how can make things happen.{" "}
+              and reach out to see how can <span style={{ fontWeight: "bold" }}> make things happen</span>.{" "}
             </p>
             <p>
               I have a Bachelor's degree in Chemistry Engineering but I've
@@ -44,7 +46,7 @@ class About extends Component {
               <span style={{ fontWeight: "bold" }}>
                 Information Technology, logic and mathematics
               </span>{" "}
-              so I decided to become a Front End Developer.
+              so I decided to become a Frontend Developer.
               <span style={{ color: "#ff8c9b" }}> ❤</span>.
             </p>
 
@@ -52,6 +54,9 @@ class About extends Component {
               When I'm not online, I can be found watching series or swimming in
               the pool.
             </p>
+            <p> 
+              <a className="modal-button hover-modal after-modal " href={marina} download="MarinaGarciaCV.pdf">Download my CV</a>
+           </p>
           </div>
         </div>
         <div className="row my-row my-flex my-tools">

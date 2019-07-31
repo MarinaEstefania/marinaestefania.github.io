@@ -15,20 +15,13 @@
   letter-spacing: 0.1rem;
 }
 
-/* .cv-button{
-  border-style: solid;
-  background-color: transparent;
-  border-color: #e5c7bd;
-  color: gray;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  cursor: pointer;
-  margin-top: 0.4rem;
+ .cv-button{
+ color: rgb(222, 161, 141);
 }
 
 .cv-button a {
   border-color: #ff8c9b;
-} */
+} 
 
 .icon-redes-contact {
   padding: 1.5rem;

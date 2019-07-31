@@ -44,7 +44,7 @@ const data = {
       role: "Frontend",
       time: "2 weeks",
       devNum: "2 Developers",
-      platform: "Responsive",
+      platform: "All web devices",
       website: "https://marinaestefania.github.io/GDL002-data-lovers/src/",
       github: "https://github.com/MarinaEstefania/GDL002-data-lovers"
     },
