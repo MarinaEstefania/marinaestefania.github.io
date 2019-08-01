@@ -18,21 +18,21 @@ class CoverPage extends Component {
                 target="_blank"
                 href="https://www.linkedin.com/in/MarinaEstefania/"
               >
-                <i class="fab fa-linkedin-in fa-lg" />
+                <i className="fab fa-linkedin-in fa-lg" />
               </a>
               <a
                 className="icon-redes-cover"
                 target="_blank"
                 href="https://github.com/MarinaEstefania"
               >
-                <i class="fab fa-github fa-lg " />
+                <i className="fab fa-github fa-lg " />
               </a>
               <a
                 className="icon-redes-cover"
                 target="_blank"
                 href="mailto:m.garciac11@gmail.com"
               >
-                <i class="fas fa-envelope fa-lg" />
+                <i className="fas fa-envelope fa-lg" />
               </a>
             </section>
             </div>

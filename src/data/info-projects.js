@@ -14,7 +14,7 @@ const data = {
       features: "Authentication, attendances registration, successful registration alert, error alert, identify external codes, identify double attendance attempt.",
       role: "Frontend", 
       time: "2 weeks",
-      devNum: "4 Developers",
+      devNum: "3 Developers",
       platform: "All web devices",
       website: "https://marinaestefania.github.io/open-house-organa/#/",
       github: "https://github.com/MarinaEstefania/open-house-organa/tree/master/organa"
@@ -30,8 +30,7 @@ const data = {
       time: "3 weeks",
       devNum: "1 Developer",
       platform: "All web devices",
-      website:
-        "https://marinaestefania.github.io/gdl002-burger-queen/#/tomar-orden",
+      website:"https://marinaestefania.github.io/gdl002-burger-queen/#/tomar-orden",
       github: "https://github.com/MarinaEstefania/gdl002-burger-queen"
     },
     {
@@ -59,7 +58,7 @@ const data = {
       time: "3 weeks",
       devNum: "1 Developer",
       platform: "npm Package",
-      website: "https://gph.is/g/a9pqogA",
+      website: "https://www.npmjs.com/package/md-links-marinaestefania",
       github: "https://github.com/MarinaEstefania/GDL002-md-links"
     }
   ]

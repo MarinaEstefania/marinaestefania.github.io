@@ -55,7 +55,7 @@ class About extends Component {
               the pool.
             </p>
             <p> 
-              <a className="modal-button hover-modal after-modal " href={marina} download="CV-MarinaGarcia.pdf">Download my CV</a>
+              <a className="modal-button hover-modal after-modal " title="clic to download" href={marina} download="CV-MarinaGarcia.pdf">Download My CV</a>
            </p>
           </div>
         </div>

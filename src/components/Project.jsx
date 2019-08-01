@@ -8,8 +8,7 @@ class Project extends Component {
     super();
     this.state = {
       infoProjects,
-      projectCard: [],
-      prueba: "prueba"
+      projectCard: []
     };
   }
 
@@ -17,7 +16,7 @@ class Project extends Component {
     const projectCards = this.state.infoProjects.projects.map(i => {
       return (
         
-          <div className="my-grid-column">
+          <div className="my-grid-column" key={i.id}>
             <div className="div-img-project">
               <img className="img-project" src={i.img} />
               {i.name}
